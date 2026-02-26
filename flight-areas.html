@@ -22,9 +22,19 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/flight-areas.css">
 
+    <!-- Preload hero background image for faster LCP -->
+    <link rel="preload" as="image" href="img/paragliding-lanzarote-2-mobile.jpg" media="(max-width: 967px)">
+    <link rel="preload" as="image" href="img/paragliding-lanzarote-2.jpg" media="(min-width: 968px)">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap">
+    </noscript>
 
     <meta name="theme-color" content="#fafafa">
 </head>
@@ -292,34 +302,34 @@
             <div id="cta-container">
                 <div id="whatsapp" class="cta">
                     <h4>Whatsapp</h4>
-                    <img src="img/whatsapp-icon.webp" alt="WhatsApp icon">
+                    <img loading="lazy" src="img/whatsapp-icon.webp" alt="WhatsApp icon">
                     <a href="https://api.whatsapp.com/send?phone=34624503469" target="_blank">+34 624 50 34 69</a>
                 </div>
                 <div id="email" class="cta">
                     <h4>Email</h4>
-                    <img src="img/mail.webp" alt="Email icon">
+                    <img loading="lazy" src="img/mail.webp" alt="Email icon">
                     <a href="mailto:info@lavaflylanzarote.com" target="_blank">info@lavaflylanzarote.com</a>
                 </div>
                 <div id="phone" class="cta">
                     <h4>Phone</h4>
-                    <img src="img/phone.webp" alt="Phone icon">
+                    <img loading="lazy" src="img/phone.webp" alt="Phone icon">
                     <a href="tel:+34624503469" target="_blank">+34 624 50 34 69</a>
                 </div>
             </div>
         </div>
         <div id="social-icons">
-            <a href="https://www.instagram.com/lavaflylanzarote/" target="_blank"><img src="img/instagram.webp"
-                    alt="LavaFly on Instagram"></a>
-            <a href="https://www.facebook.com/lavaflylanzarote/" target="_blank"><img src="img/facebook.webp"
-                    alt="LavaFly on Facebook"></a>
+            <a href="https://www.instagram.com/lavaflylanzarote/" target="_blank"><img loading="lazy"
+                    src="img/instagram.webp" alt="LavaFly on Instagram"></a>
+            <a href="https://www.facebook.com/lavaflylanzarote/" target="_blank"><img loading="lazy"
+                    src="img/facebook.webp" alt="LavaFly on Facebook"></a>
             <a href="https://www.tripadvisor.it/Attraction_Review-g652122-d19393458-Reviews-Lava_Fly_Lanzarote-Teguise_Lanzarote_Canary_Islands.html"
-                target="_blank"><img src="img/tripadvisor.webp" alt="LavaFly on TripAdvisor"></a>
+                target="_blank"><img loading="lazy" src="img/tripadvisor.webp" alt="LavaFly on TripAdvisor"></a>
             <a href="https://www.youtube.com/channel/UCSVKvZBmCHQ4MOhCqRTBwpA" target="_blank"><img
                     src="img/youtube.webp" alt="LavaFly on YouTube"></a>
         </div>
     </footer>
-    <a href="https://api.whatsapp.com/send?phone=34624503469" target="_blank"><img src="img/whatsapp-icon.webp"
-            id="whatsapp-footer" alt="Contact us on WhatsApp"></a>
+    <a href="https://api.whatsapp.com/send?phone=34624503469" target="_blank"><img loading="lazy"
+            src="img/whatsapp-icon.webp" id="whatsapp-footer" alt="Contact us on WhatsApp"></a>
 
 
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>

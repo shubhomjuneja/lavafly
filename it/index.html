@@ -20,63 +20,26 @@
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
 
+  <!-- Preload hero background image for faster LCP -->
+  <link rel="preload" as="image" href="../img/paragliding-lanzarote-2-mobile.jpg" media="(max-width: 967px)">
+  <link rel="preload" as="image" href="../img/paragliding-lanzarote-2.jpg" media="(min-width: 968px)">
+
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap">
+  </noscript>
 
   <meta name="theme-color" content="#fafafa">
   <!-----------------google review-------->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://tutorialswebsite.com/cdn/google_places.js"></script>
+  <script src="https://tutorialswebsite.com/cdn/google_places.js" defer></script>
   <script
-    src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDaCBVrB5__JkffBznDWFD55M_pLyvXeIc&language=it&signed_in=true&libraries=places"></script>
-  <!-- Slick CSS -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <!-- Optional Theme -->
-  <link rel="stylesheet" type="text/css"
-    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- Slick JS -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script>
-    jQuery(document).ready(function ($) {
-      // jQuery("#google-reviews").googlePlaces({
-      //   placeId: 'ChIJW5bXVQEhRgwR9g0rEil4IDY' //Find placeID @: https://developers.google.com/places/place-id
-      //   , render: ['reviews']
-      //   , min_rating: 4
-      //   , max_rows: 6
-      //   , rotateTime: false
-      //   , shorten_names: true
-
-
-      // });
-      jQuery('.partner-container').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 3,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        arrows: true,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 2,
-            }
-          },
-          {
-            breakpoint: 800,
-            settings: {
-              slidesToShow: 1,
-              autoplaySpeed: 2800,
-            }
-          }
-        ]
-      });
-    });
-  </script>
+    src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDaCBVrB5__JkffBznDWFD55M_pLyvXeIc&language=it&signed_in=true&libraries=places"
+    defer></script>
 </head>
 
 <body>
@@ -135,7 +98,7 @@
   <!-- ABOUT -->
   <div id="about">
     <div id="about-left">
-      <img src="../img/lanzarote-paragliding-team.webp" alt="LavaFly Lanzarote paragliding team">
+      <img loading="lazy" src="../img/lanzarote-paragliding-team.webp" alt="LavaFly Lanzarote paragliding team">
     </div>
     <div id="about-right">
       <span class="overtitle-section">IL NOSTRO TEAM</span>
@@ -162,7 +125,7 @@
     <div class="divider"></div>
     <div id="pilots-img-container">
       <div>
-        <img src="../img/paragliding-lanzariote-murphy.webp" alt="Murphy - tandem paragliding pilot">
+        <img loading="lazy" src="../img/paragliding-lanzariote-murphy.webp" alt="Murphy - tandem paragliding pilot">
         <h3>Murphy</h3>
         <p>Con 22 anni di esperienza di volo.
           Certificato internazionale di istruttore e pilota di tandem.
@@ -171,7 +134,7 @@
             giornata con i miei ospiti"</em></span>
       </div>
       <div>
-        <img src="../img/paragliding-lanzarote-michi.webp" alt="Michi - tandem paragliding pilot">
+        <img loading="lazy" src="../img/paragliding-lanzarote-michi.webp" alt="Michi - tandem paragliding pilot">
         <h3>Michi</h3>
         <p>Vola da 10 anni. Pilota certificato, scienziato sportivo e ha lavorato per molti anni con Skywalk (azienda di
           produzione di parapendio).</p>
@@ -180,7 +143,7 @@
 
       </div>
       <div class="darlo-card">
-        <img src="../img/gustavo.webp" alt="Gustavo - team assistant and musician">
+        <img loading="lazy" src="../img/gustavo.webp" alt="Gustavo - team assistant and musician">
         <h3>Gustavo</h3>
         <p>Gustavo è il nostro gaucho argentino della Patagonia. Con il suo buon umore costante, le sue competenze
           multilingue e il suo talento eccezionale sia come assistente che come musicista, porta uno spirito unico nel
@@ -188,7 +151,8 @@
 
       </div>
       <div>
-        <img src="../img/paragliding-lanzarote-sandro.webp" alt="Sandro - surf instructor and team member">
+        <img loading="lazy" src="../img/paragliding-lanzarote-sandro.webp"
+          alt="Sandro - surf instructor and team member">
         <h3>Sandro</h3>
         <p>
           Il miglior uomo. Sandro è uno dei migliori istruttori di surf da più di 15 anni. Aiuta il team LavaFly da 5
@@ -210,12 +174,12 @@
       <!-- <a href="#contact">CONTACT US</a> -->
     </div>
     <div id="gift-card-center">
-      <img width="100%" src="../img/voucher.webp" alt="paragliding-gift-card"></img>
+      <img loading="lazy" width="100%" src="../img/voucher.webp" alt="paragliding-gift-card"></img>
       <a href="#contact" id="contact-gift">CONTATTACI</a>
 
     </div>
     <div id="gift-card-right">
-      <img src="../img/paragliding-girft-card-2.webp" alt="paragliding-gift-card"></img>
+      <img loading="lazy" src="../img/paragliding-girft-card-2.webp" alt="paragliding-gift-card"></img>
       <p>I nostri voucher sono trasferibili e possono essere facilmente condivisi con amici o familiari. In caso di
         cancellazione, si applica una commissione di elaborazione del 30 %.</p>
 
@@ -303,36 +267,36 @@
   <!-- GALLERY -->
   <section class="gallery">
     <div class="gallery-item">
-      <img src="../img/gallery-1-1.webp" alt="Tandem paragliding flight over Lanzarote">
+      <img loading="lazy" src="../img/gallery-1-1.webp" alt="Tandem paragliding flight over Lanzarote">
     </div>
     <div class="gallery-item">
-      <img src="../img/gallery-4.webp" alt="Paragliding above Lanzarote coastline">
+      <img loading="lazy" src="../img/gallery-4.webp" alt="Paragliding above Lanzarote coastline">
     </div>
     <div class="gallery-item">
-      <img src="../img/gallery-1-2.webp" alt="Aerial view of Lanzarote during paragliding">
+      <img loading="lazy" src="../img/gallery-1-2.webp" alt="Aerial view of Lanzarote during paragliding">
     </div>
   </section>
   <section class="gallery">
     <div class="gallery-item">
-      <img src="../img/gallery-1-3.webp" alt="Tandem paragliding passenger enjoying the flight">
+      <img loading="lazy" src="../img/gallery-1-3.webp" alt="Tandem paragliding passenger enjoying the flight">
     </div>
     <div class="gallery-item">
-      <img src="../img/gallery-1-4.webp" alt="Paragliding over Famara beach Lanzarote">
+      <img loading="lazy" src="../img/gallery-1-4.webp" alt="Paragliding over Famara beach Lanzarote">
     </div>
     <div class="gallery-item">
-      <img src="../img/gallery-1-5.webp" alt="Scenic paragliding flight over volcanic landscape">
+      <img loading="lazy" src="../img/gallery-1-5.webp" alt="Scenic paragliding flight over volcanic landscape">
     </div>
 
   </section>
   <section class="gallery">
     <div class="gallery-item">
-      <img src="../img/gallery-1-6.webp" alt="Tandem paragliding takeoff in Lanzarote">
+      <img loading="lazy" src="../img/gallery-1-6.webp" alt="Tandem paragliding takeoff in Lanzarote">
     </div>
     <div class="gallery-item">
-      <img src="../img/gallery-1-8.webp" alt="Paragliding landing on Lanzarote beach">
+      <img loading="lazy" src="../img/gallery-1-8.webp" alt="Paragliding landing on Lanzarote beach">
     </div>
     <div class="gallery-item">
-      <img src="../img/gallery-1-9.webp" alt="Sunset paragliding experience in Lanzarote">
+      <img loading="lazy" src="../img/gallery-1-9.webp" alt="Sunset paragliding experience in Lanzarote">
     </div>
   </section>
 
@@ -354,7 +318,7 @@
     <div class="partner-logo-container">
       <div class="partner-logo-content">
         <div class="partner-logo">
-          <img src="/img/LIGHT_LARGE_FEATURED_KAYAK.webp" alt="ING Boats Logo">
+          <img loading="lazy" src="/img/LIGHT_LARGE_FEATURED_KAYAK.webp" alt="ING Boats Logo">
         </div>
         <div class="content-equal-height">
           <p class="desc">
@@ -370,7 +334,7 @@
     <div class="partner-logo-container">
       <div class="partner-logo-content">
         <div class="partner-logo">
-          <img src="/img/partner-logo-1.webp" alt="ING Boats Logo">
+          <img loading="lazy" src="/img/partner-logo-1.webp" alt="ING Boats Logo">
         </div>
         <div class="content-equal-height">
           <h5 class="title">Tour in barca e in bicicletta</h5>
@@ -389,7 +353,7 @@
     <div class="partner-logo-container">
       <div class="partner-logo-content">
         <div class="partner-logo">
-          <img src="/img/partner-logo-2.webp" alt="KALAKAI">
+          <img loading="lazy" src="/img/partner-logo-2.webp" alt="KALAKAI">
         </div>
         <div class="content-equal-height">
           <p class="desc">
@@ -408,7 +372,7 @@
     <div class="partner-logo-container">
       <div class="partner-logo-content">
         <div class="partner-logo">
-          <img src="/img/partner-logo-3.webp" alt="Discover">
+          <img loading="lazy" src="/img/partner-logo-3.webp" alt="Discover">
         </div>
         <div class="content-equal-height">
           <p class="desc">
@@ -426,7 +390,7 @@
     <div class="partner-logo-container">
       <div class="partner-logo-content">
         <div class="partner-logo">
-          <img src="/img/partner-logo-4.webp" alt="SmyleSurf">
+          <img loading="lazy" src="/img/partner-logo-4.webp" alt="SmyleSurf">
         </div>
         <div class="content-equal-height">
           <h5 class="title">SmyleSurf – La tua scuola di surf a Famara, Lanzarote</h5>
@@ -446,7 +410,7 @@
     <div class="partner-logo-container">
       <div class="partner-logo-content">
         <div class="partner-logo">
-          <img src="/img/partner-logo-6.webp" alt="BodyKinetik">
+          <img loading="lazy" src="/img/partner-logo-6.webp" alt="BodyKinetik">
         </div>
         <div class="content-equal-height">
           <p class="desc">
@@ -466,7 +430,7 @@
     <div class="partner-logo-container">
       <div class="partner-logo-content">
         <div class="partner-logo">
-          <img src="/img/partner-logo-5.webp" alt="Experiences">
+          <img loading="lazy" src="/img/partner-logo-5.webp" alt="Experiences">
         </div>
         <div class="content-equal-height">
           <p class="desc">
@@ -579,7 +543,7 @@
   <!-- GOGGLE REVIEW -->
   <section id="google-reviews-wrapper">
     <div class="google-imgBox">
-      <img src="../img/google-review.webp" alt="google-review" />
+      <img loading="lazy" src="../img/google-review.webp" alt="google-review" />
     </div>
     <div id="google-reviews"></div>
     <a href="https://www.google.com/search?q=LAVAFLY+LANZAROTE&ei=9HwAZPmjKL6q4-EPtoeCoAw&ved=0ahUKEwj57bCVh739AhU-1TgGHbaDAMQQ4dUDCA8&uact=5&oq=LAVAFLY+LANZAROTE&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzINCC4QgAQQxwEQrwEQCkoECEEYAFAAWABgvAZoAHABeACAAbYBiAG2AZIBAzAuMZgBAKABAqABAcABAQ&sclient=gws-wiz-serp#lrd=0xc46210155d7965b:0x36207829122b0df6,1,,,,"
@@ -594,34 +558,34 @@
       <div id="cta-container">
         <div id="whatsapp" class="cta">
           <h4>Whatsapp</h4>
-          <img src="../img/whatsapp-icon.webp" alt="WhatsApp icon">
+          <img loading="lazy" src="../img/whatsapp-icon.webp" alt="WhatsApp icon">
           <a href="https://api.whatsapp.com/send?phone=34624503469" target="_blank">+34 624 50 34 69</a>
         </div>
         <div id="email" class="cta">
           <h4>Email</h4>
-          <img src="../img/mail.webp" alt="Email icon">
+          <img loading="lazy" src="../img/mail.webp" alt="Email icon">
           <a href="mailto:info@lavaflylanzarote.com" target="_blank">info@lavaflylanzarote.com</a>
         </div>
         <div id="phone" class="cta">
           <h4>Telefono</h4>
-          <img src="../img/phone.webp" alt="Phone icon">
+          <img loading="lazy" src="../img/phone.webp" alt="Phone icon">
           <a href="tel:+34624503469" target="_blank">+34 624 50 34 69</a>
         </div>
       </div>
     </div>
     <div id="social-icons">
-      <a href="https://www.instagram.com/lavaflylanzarote/" target="_blank"><img src="../img/instagram.webp"
-          alt="LavaFly on Instagram"></a>
-      <a href="https://www.facebook.com/lavaflylanzarote/" target="_blank"><img src="../img/facebook.webp"
-          alt="LavaFly on Facebook"></a>
+      <a href="https://www.instagram.com/lavaflylanzarote/" target="_blank"><img loading="lazy"
+          src="../img/instagram.webp" alt="LavaFly on Instagram"></a>
+      <a href="https://www.facebook.com/lavaflylanzarote/" target="_blank"><img loading="lazy"
+          src="../img/facebook.webp" alt="LavaFly on Facebook"></a>
       <a href="https://www.tripadvisor.it/Attraction_Review-g652122-d19393458-Reviews-Lava_Fly_Lanzarote-Teguise_Lanzarote_Canary_Islands.html"
-        target="_blank"><img src="../img/tripadvisor.webp" alt="LavaFly on TripAdvisor"></a>
-      <a href="https://www.youtube.com/channel/UCSVKvZBmCHQ4MOhCqRTBwpA" target="_blank"><img src="../img/youtube.webp"
-          alt="LavaFly on YouTube"></a>
+        target="_blank"><img loading="lazy" src="../img/tripadvisor.webp" alt="LavaFly on TripAdvisor"></a>
+      <a href="https://www.youtube.com/channel/UCSVKvZBmCHQ4MOhCqRTBwpA" target="_blank"><img loading="lazy"
+          src="../img/youtube.webp" alt="LavaFly on YouTube"></a>
     </div>
   </footer>
-  <a href="https://api.whatsapp.com/send?phone=34624503469" target="_blank""><img src=" ../img/whatsapp-icon.webp"
-    id="whatsapp-footer" alt="Contact us on WhatsApp"></a>
+  <a href="https://api.whatsapp.com/send?phone=34624503469" target="_blank""><img loading=" lazy"
+    src=" ../img/whatsapp-icon.webp" id="whatsapp-footer" alt="Contact us on WhatsApp"></a>
 
 
 
@@ -629,6 +593,48 @@
   <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="../js/plugins.js"></script>
   <script src="../js/main.js"></script>
+
+  <!-- Slick Carousel (moved from head to eliminate render-blocking) -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  </noscript>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  </noscript>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    jQuery(document).ready(function ($) {
+      jQuery('.partner-container').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+          {
+            breakpoint: 800,
+            settings: {
+              slidesToShow: 1,
+              autoplaySpeed: 2800,
+            }
+          }
+        ]
+      });
+    });
+  </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
