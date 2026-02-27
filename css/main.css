@@ -279,6 +279,15 @@ ul li a {
   text-transform: uppercase;
 }
 
+@media (max-width: 967px) {
+  #hero-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../img/paragliding-lanzarote-2-mobile.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
 @media (min-width: 968px) {
   #nav-desktop {
     display: block;
@@ -541,6 +550,7 @@ ul li a {
   #tandem-flights-right p {
     width: 100%;
   }
+
   #tandem-flights-right h2 {
     margin-bottom: 0 !important;
   }
@@ -690,6 +700,7 @@ ul li a {
 }
 
 @media only screen and (min-width: 968px) and (max-width: 1320px) {
+
   .price-list,
   #flight-center-ul li:first-child,
   #special-column li:first-child {
@@ -715,6 +726,7 @@ ul li a {
 }
 
 @media only screen and (max-width: 968px) {
+
   .price-list,
   #flight-center-ul li:first-child,
   #special-column li:first-child {
@@ -723,6 +735,7 @@ ul li a {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 600px) {
+
   .price-list,
   #flight-center-ul li:first-child,
   #special-column li:first-child {
@@ -731,6 +744,7 @@ ul li a {
 }
 
 @media only screen and (max-width: 600px) {
+
   .price-list,
   #flight-center-ul li:first-child,
   #special-column li:first-child {
@@ -876,23 +890,23 @@ summary {
   position: relative;
 }
 
-details > summary::after {
+details>summary::after {
   position: absolute;
   content: "+";
   right: 20px;
 }
 
-details[open] > summary::after {
+details[open]>summary::after {
   position: absolute;
   content: "-";
   right: 20px;
 }
 
-details > summary::-webkit-details-marker {
+details>summary::-webkit-details-marker {
   display: none;
 }
 
-details[open] summary ~ * {
+details[open] summary~* {
   animation: sweep 0.5s ease-in-out;
 }
 
@@ -1141,9 +1155,9 @@ details[open] summary ~ * {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -1154,6 +1168,7 @@ details[open] summary ~ * {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -1227,6 +1242,7 @@ details[open] summary ~ * {
   width: 75%;
   margin: auto;
 }
+
 #google-reviews-wrapper a {
   display: block;
   text-align: center;
@@ -1240,24 +1256,29 @@ details[open] summary ~ * {
   padding: 12px;
   color: #fff;
 }
+
 #google-reviews-wrapper a:hover {
   background-color: #589fdd;
 }
+
 .google-imgBox {
   margin: auto;
   display: block;
   width: 220px;
 }
+
 .google-imgBox img {
   width: 100%;
   height: 100%;
 }
+
 #google-reviews {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 40px 0 30px;
 }
+
 span.review-profile-image {
   float: left;
   padding: 0px 15px 0px 0px;
@@ -1281,6 +1302,7 @@ span.review-profile-image img {
   border-radius: 12px;
   box-sizing: border-box;
 }
+
 .review-text {
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -1349,6 +1371,7 @@ span.review-profile-image img {
 .star:after {
   content: "\2605";
 }
+
 .darlo-card a {
   bottom: unset !important;
   text-decoration: underline !important;
@@ -1356,6 +1379,7 @@ span.review-profile-image img {
   margin-bottom: 0 !important;
   display: inline !important;
 }
+
 .darlo-card .darlo-card-description {
   margin-bottom: 0 !important;
   margin-top: 0 !important;
@@ -1396,6 +1420,7 @@ span.review-profile-image img {
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
 }
+
 /* partner */
 
 .partner-main {
@@ -1407,6 +1432,7 @@ span.review-profile-image img {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .partner-banner {
   background-image: url("../img/partner-banner.jpg");
   background-size: cover;
@@ -1419,9 +1445,11 @@ span.review-profile-image img {
   padding: 40px 100px;
   box-sizing: border-box;
 }
+
 .partner-banner-details {
   max-width: 650px;
 }
+
 .partner-banner-details h5 {
   color: #fff;
   font-size: 22px;
@@ -1429,6 +1457,7 @@ span.review-profile-image img {
   font-weight: 600;
   margin: 0 !important;
 }
+
 .partner-container {
   padding: 40px 55px 20px 55px;
   width: 100%;
@@ -1436,22 +1465,28 @@ span.review-profile-image img {
   box-sizing: border-box;
   margin: auto;
 }
+
 .partner-container .slick-dots {
   left: 0;
 }
+
 .partner-container .slick-dots li button:before {
   font-size: 11px !important;
 }
-.partner-container .slick-prev:before, .slick-next:before {
+
+.partner-container .slick-prev:before,
+.slick-next:before {
   font-family: 'slick';
   font-size: 32px !important;
   line-height: 1;
   opacity: .75 !important;
   color: #010101 !important;
 }
+
 .partner-banner-details .partner-subtitle {
   margin: 0 !important;
 }
+
 .partner-banner-details p,
 .partner-subtitle {
   color: #fff;
@@ -1461,9 +1496,11 @@ span.review-profile-image img {
   margin-top: 30px;
   margin-bottom: 0;
 }
+
 .partner-logo-container {
   padding: 10px 20px;
 }
+
 .partner-logo-content {
   /* width: 60%; */
   text-align: center;
@@ -1472,12 +1509,14 @@ span.review-profile-image img {
   flex-direction: column;
   /* padding:0 20px; */
 }
+
 .partner-link-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
 }
+
 .partner-logo {
   width: 200px;
   max-width: 200px;
@@ -1486,11 +1525,13 @@ span.review-profile-image img {
   height: 180px;
   justify-content: center;
 }
+
 .partner-logo img {
   max-width: 100%;
   height: auto !important;
   object-fit: contain;
 }
+
 .partner-logo-content .title {
   color: #141414;
   font-size: 16px;
@@ -1499,12 +1540,14 @@ span.review-profile-image img {
   margin-top: 0;
   margin-bottom: 15px;
 }
+
 .partner-logo-content .desc {
   color: #141414;
   font-size: 16px;
   line-height: 26px;
   margin: 0px;
 }
+
 .content-equal-height {
   min-height: 180px;
   display: flex;
@@ -1513,19 +1556,24 @@ span.review-profile-image img {
   justify-content: center;
   width: 100%;
 }
+
 .our-partners h2 {
   text-align: center;
   font-size: 32px;
 }
+
 .our-partners .divider {
   margin: auto;
 }
+
 .our-partners .partner-text {
   color: #444444 !important;
 }
+
 .partner-image img {
   max-width: 350px;
 }
+
 .partner-text a,
 .partner-link {
   background: #edb905;
@@ -1537,48 +1585,68 @@ span.review-profile-image img {
   text-decoration: none;
   text-align: center;
 }
+
 .partner-text p {
   line-height: 24px;
 }
+
 @media only screen and (max-width: 1240px) {
   .review-item {
     width: 47%;
   }
+
   span.review-profile-image img {
     width: 60px;
   }
+
   .review-author {
     font-size: 15px;
   }
+
   .review-stars ul li i {
     font-size: 24px;
   }
+
   .partner-container {
     max-width: 100%;
   }
+
   .content-equal-height {
     min-height: 220px;
   }
-  .partner-container .slick-next{right: 30px !important;}
-  .partner-container .slick-prev {left: 20px !important;}
-  .partner-container .slick-prev:before, .slick-next:before {
+
+  .partner-container .slick-next {
+    right: 30px !important;
+  }
+
+  .partner-container .slick-prev {
+    left: 20px !important;
+  }
+
+  .partner-container .slick-prev:before,
+  .slick-next:before {
     font-family: 'slick';
     font-size: 33px !important;
   }
+
   .partner-banner {
     padding: 40px 60px;
   }
 }
+
 @media only screen and (max-width: 968px) {
   #google-reviews-wrapper {
     padding-bottom: 50px;
   }
+
   .partner-banner {
     padding: 30px;
   }
+
   #google-reviews-wrapper {
     width: 80%;
   }
+
   .accordian {
     width: unset;
   }
@@ -1589,44 +1657,62 @@ span.review-profile-image img {
     margin: 10px;
     width: 46%;
   }
+
   .google-imgBox {
     width: 180px;
   }
 }
+
 @media only screen and (max-width: 768px) {
-  .partner-container .slick-next{right: 22px !important;}
-  .partner-container .slick-prev {left: 15px !important;}
-  .partner-container .slick-prev:before, .slick-next:before {
+  .partner-container .slick-next {
+    right: 22px !important;
+  }
+
+  .partner-container .slick-prev {
+    left: 15px !important;
+  }
+
+  .partner-container .slick-prev:before,
+  .slick-next:before {
     font-family: 'slick';
     font-size: 26px !important;
   }
+
   .partner-container {
     padding: 40px 35px 10px 30px;
   }
+
   .partner-banner-details,
   .partner-logo-content {
     max-width: 100%;
     width: 100%;
   }
+
   .partner-logo-container,
   .partner-logo-content {
     flex-direction: column;
   }
+
   .content-equal-height {
     min-height: unset;
   }
-  .partner-banner-details p, .partner-subtitle {
+
+  .partner-banner-details p,
+  .partner-subtitle {
     font-size: 14px;
   }
 }
+
 @media only screen and (max-width: 767px) {
   #google-reviews-wrapper {
     width: 90%;
   }
+
   .review-item {
     width: 100%;
     margin: 10px 0;
   }
+
   #google-reviews {
     margin-top: 25px;
   }
@@ -1635,35 +1721,44 @@ span.review-profile-image img {
     width: unset;
     left: 0px !important;
   }
+
   /* .partner-item {
     flex-wrap: wrap;
   } */
   .partner-image img {
     max-width: 100%;
   }
+
   .partner-banner {
     height: unset;
     padding: 30px;
   }
+
   .partner-link-wrap {
     margin-top: 15px;
   }
-  .partner-logo-container{
+
+  .partner-logo-container {
     padding: 10px 25px !important;
   }
+
   .partner-logo-content {
     padding: 0 !important;
   }
+
   .partner-logo {
     width: 300px;
     max-width: 300px;
     margin-right: 0px;
     min-width: 300px;
   }
-  .partner-logo-content .desc , .partner-logo-content .title {
+
+  .partner-logo-content .desc,
+  .partner-logo-content .title {
     text-align: center;
     font-size: 14px;
   }
+
   .partner-logo {
     height: 130px;
   }

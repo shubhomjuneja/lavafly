@@ -1,11 +1,12 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
   <title>Lavafly Lanzarote</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://lavaflylanzarote.com/fr/">
 
   <meta property="og:title" content="">
   <meta property="og:type" content="">
@@ -19,43 +20,625 @@
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
 
+  <!-- Preload hero background image for faster LCP -->
+  <link rel="preload" as="image" href="../img/paragliding-lanzarote-2-mobile.jpg" media="(max-width: 967px)">
+  <link rel="preload" as="image" href="../img/paragliding-lanzarote-2.jpg" media="(min-width: 968px)">
+
   <link rel="preconnect" href="https://fonts.gstatic.com">
- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap">
+  </noscript>
 
   <meta name="theme-color" content="#fafafa">
-     <!-----------------google review-------->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://tutorialswebsite.com/cdn/google_places.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDaCBVrB5__JkffBznDWFD55M_pLyvXeIc&language=fr&signed_in=true&libraries=places"></script>
- <!-- Slick CSS -->
- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
- <!-- Optional Theme -->
- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
- <!-- jQuery -->
- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
- <!-- Slick JS -->
- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
- <script>
-   jQuery(document).ready(function ($) {
-     // jQuery("#google-reviews").googlePlaces({
-     //   placeId: 'ChIJW5bXVQEhRgwR9g0rEil4IDY' //Find placeID @: https://developers.google.com/places/place-id
-     //   , render: ['reviews']
-     //   , min_rating: 4
-     //   , max_rows: 6
-     //   , rotateTime: false
-     //   , shorten_names: true
+  <!-----------------google review-------->
+  <script src="https://tutorialswebsite.com/cdn/google_places.js" defer></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDaCBVrB5__JkffBznDWFD55M_pLyvXeIc&language=fr&signed_in=true&libraries=places"
+    defer></script>
+</head>
+
+<body>
+  <!-- HERO -->
+  <div id="hero-container">
+    <header id="my-header">
+      <div id="logo-container">
+        <img src="../img/logo-lavafly.webp" alt="LavaFly Lanzarote logo" />
+      </div>
+      <nav id="nav-mobile">
+        <ul>
+          <li><a href="#about">
+              QUI SOMMES NOUS</a></li>
+          <li><a href="#tandem-flights">VOLS</a></li>
+          <li><a href="#gift-card">CARTE-CADEAU </a></li>
+          <li><a href="#faq">QUESTIONS FRÉQUENTES
+            </a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="/fr/contract">CONTRAT</a></li>
+
+          <li><a href="/"><img src="/img/uk-flag.webp" width="24px" alt="uk-flag"></a></li>
+          <li><a href="/es"><img src="/img/spain-flag.webp" width="24px" alt="spain-flag"
+                id="spain-flag-fr-version"></a>
+          </li>
+          <li><a href="/it"><img src="/img/italy-flag.webp" width="24px" alt="italy-flag"
+                id="spain-flag-fr-version"></a>
+          </li>
+
+        </ul>
+      </nav>
+      <nav id="nav-desktop">
+        <ul>
+          <li><a href="#about">QUI SOMMES NOUS</a></li>
+          <li><a href="#tandem-flights">VOLS</a></li>
+          <li><a href="#gift-card">CARTE-CADEAU</a></li>
+          <li><a href="#faq">QUESTIONS FRÉQUENTES</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="/fr/contract">CONTRAT</a></li>
+          <div class="flag-desktop-container">
+            <a href="/"><img src="/img/uk-flag.webp" width="24px" alt="french-flag"></a>
+            <a href="/es"><img src="/img/spain-flag.webp" width="24px" alt="spain-flag"></a>
+            <a href="/it"><img src="/img/italy-flag.webp" width="24px" alt="italy-flag"></a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <div id="burger-icon">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div id="closing-menu-icon">
+      x
+    </div>
+  </div>
+  <div id="hero-text">
+    <span id="overtitle-hero">VOLS TANDEM
+    </span>
+    <!--  <h2><span id="lavafly">LAVAFLY</span> LANZAROTE</h2>-->
+    <h1>PARAPENTE BIPLACE À LANZAROTE</h1>
+    <p id="next-adventure">Prêt pour votre prochaine aventure ?</p>
+    <a href="https://api.whatsapp.com/send?phone=34624503469" id="book-now">réserver</a>
+  </div>
+
+  <!-- ABOUT -->
+  <div id="about">
+    <div id="about-left">
+      <img loading="lazy" src="../img/lanzarote-paragliding-team.webp" alt="LavaFly Lanzarote paragliding team">
+    </div>
+    <div id="about-right">
+      <span class="overtitle-section">Notre équipe</span>
+      <h2>Plus de 20 ans d’expérience en vol </h2>
+      <div class="divider"></div>
+      <p>
+        Nos instructeurs certifiés et nos pilotes tandems disposent de plus de 25 ans d’expérience. Notre mission est
+        d’offrir de nouvelles perspectives inspirantes du monde à travers des sauts en parapente. Nous prêtons une
+        attention particulière au confort et au bien-être de nos passagers en assurant sécurité et plaisir maximums.
+        L’équipement du pilote est régulièrement vérifié et changé.
+
+      </p>
+
+    </div>
+  </div>
+
+  <!-- PILOTS -->
+  <div id="pilots">
+    <h2>L’équipe de Lavafly</h2>
+    <div class="divider"></div>
+    <div id="pilots-img-container">
+      <div>
+        <img loading="lazy" src="../img/paragliding-lanzariote-murphy.webp" alt="Murphy - tandem paragliding pilot">
+        <h3>Murphy</h3>
+        <p>22 années d’expérience en vol. Instructeur de vol et pilot tandem certifié internationalement. Ancien athlète
+          professionnel, vole dans les îles Canaries depuis plus de 10 ans.
+        </p>
+        <span><em>“ Que pourrait-il y avoir de plus beau dans la vie que d’avoir de l’amour et de la passion pour son
+            travail, et partager, chaque jour la joie et l’émerveillement de mes passagers ?”
+          </em></span>
+      </div>
+      <div>
+        <img loading="lazy" src="../img/paragliding-lanzarote-michi.webp" alt="Michi - tandem paragliding pilot">
+        <h3>Michi</h3>
+        <p>10 ans d’expérience en vol. Pilot tandem certifié d’état, spécialiste de randonnées et d’activités aériennes,
+          ingénieur des sports et employé durant une longue période pour Skywalks (fabricant de parapentes).</p>
+        <span><em>“Les montagnes ont toujours été ma maison. Mais la perspective et la liberté d’être dans les airs est
+            simplement incroyable”.</em></span>
+
+      </div>
+      <div class="darlo-card">
+        <img loading="lazy" src="../img/gustavo.webp" alt="Gustavo - team assistant and musician">
+        <h3>Gustavo</h3>
+        <p>Gustavo est notre gaucho argentin de Patagonie. Avec sa bonne humeur constante, ses compétences multilingues
+          et son talent exceptionnel à la fois comme assistant et comme musicien, il apporte un esprit unique à notre
+          équipe.</p>
+      </div>
+      <div>
+        <img loading="lazy" src="../img/paragliding-lanzarote-sandro.webp"
+          alt="Sandro - surf instructor and team member">
+        <h3>Sandro</h3>
+        <p>Sandro est l’un des meilleurs professeurs de surf depuis plus de 15 ans. Il accompagne l’équipe Lavafly
+          depuis maintenant 5 ans, et il s’initie doucement au vol en autonomie.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- GIFT CARD -->
+  <section id="gift-card">
+    <div id="gift-card-left">
+      <h3>
+        Envie de faire un cadeau spécial ?</h3>
+
+      <p>Anniversaire</br> Mariage</br> Anniversaire</br></br>
+        Si vous souhaitez offrir une carte cadeau, quelle que soit l’occasion, contactez nous !
+      </p>
+      <p>Un rendez-vous convenu peut être annulé 24 heures à l'avance. Si un rendez-vous convenu est annulé à court
+        terme par le client, nous nous réservons le droit de retenir 50% de la valeur.</p>
 
 
-     // });
-     jQuery('.partner-container').slick({
-       dots: true,
-       infinite: true,
-       speed: 300,
-       slidesToShow: 3,
-       autoplay: true,
-       autoplaySpeed: 2000,
-       arrows: true,
-       responsive: [
+      <!-- <a href="#contact">CONTACT US</a> -->
+    </div>
+    <div id="gift-card-center">
+      <img loading="lazy" width="100%" src="../img/voucher.webp" alt="paragliding-gift-card"></img>
+      <a href="#contact" id="contact-gift">CONTÁCTANOS</a>
+
+    </div>
+    <div id="gift-card-right">
+      <img loading="lazy" src="../img/paragliding-girft-card-2.webp" alt="paragliding-gift-card"></img>
+      <p>Nos bons sont transférables et peuvent être facilement partagés avec des amis ou de la famille. Des frais de
+        traitement de 30 % s'appliquent en cas d'annulation.</p>
+
+    </div>
+  </section>
+
+  <!-- TANDEM FLIGHTS -->
+  <div id="tandem-flights">
+    <div id="tandem-flights-left">
+      <iframe width="100%" height="350px" src="https://www.youtube.com/embed/SggqxtG3dXw" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    </div>
+    <div id="tandem-flights-right">
+      <span class="overtitle-section-secondary">Pour une aventure extra-ordinaire
+      </span>
+      <h2>Saut en tandem </h2>
+      <p>Les îles Canaries offrent des conditions optimales pour un saut de parapente en tandem. Depuis la terre, la
+        biodiversité de Lanzarote est impressionnante. Des montagnes noires de laves, une végétation luxuriante, des
+        villages aux murs blancs, des récifs de coraux et des plages préservés. Observer ces paysages depuis le ciel est
+        une expérience inspirante et inoubliable. Tel un oiseau, vous glisserez au dessus de la mer Laminar en vous
+        laissant porter par les vents des cotes. Vous survolerez plus de 15kilomètres des plages du Riscos de Famara, à
+        une haute de 600 mètres, au dessus des falaises de l’île volcanique. Si les conditions le permettent vous
+        pourrez même atteindre la magnifique île voisine de la Graciosa. Des vents favorables peuvent également vous
+        permettre de voler jusqu’à Orzola ou le Mirador del Rio. De là, vous pouvez atterrir au paradis, vous reposer
+        sur la plage en arrivant et vous rafraichir l’esprit avec un plongeon dans l’eau transparente. Une fois arrivée
+        au point de départ, nous commençons l’explication précise de la préparation. Une fois les points de sécurités
+        abordés et les conditions météo ayant été validées et définies “sûres” par le pilote, vous serez à quelques pas
+        de commencer votre voyage dans le ciel. Habituellement, nous nous élançons dans les vents canariens, juste à
+        quelques même du site de lancement, et nos nous envolons gracieusement comme des oiseaux.
+
+      </p>
+
+    </div>
+
+  </div>
+
+  <!-- SPECIALS -->
+  <div id="specials-section">
+    <div id="flight-areas">
+      <h4>ZONE DE VOL</h4>
+      <ol>
+        <li>Mala</li>
+        <li>Playa de Orzola</li>
+        <li>La Graciosa</li>
+        <li>Risco de Famara</li>
+        <li>Tenesar</li>
+        <li>Playa Quemada</li>
+        <li>La Asomada/Macher</li>
+      </ol>
+    </div>
+    <div id="flight-prices">
+      <h4>PRIX</h4>
+      <ul class="price-list">
+        <li>20 min. +-<span> - </span> 90.00€</li>
+        <li>30 min. +-<span class="marginLeft"> - </span>120.00€</li>
+        <li>45 min. +-<span class="marginLeft10"> - </span> 140.00€</li>
+      </ul>
+      <ul id="flight-center-ul">
+        <li>Photo & Videos <span>20,00€</span></li>
+        <li id="micro-sd">Nous vous enverrons un lien de téléchargement via WeTransfer le jour même !</li>
+      </ul>
+      <div id="special-column">
+        <h4>SPECIAL</h4>
+        <ul>
+          <li>60 min. +-<span class="marginLeft"> - </span>220.00€ </li>
+          <li> compris Photos & Videos gratuites <span class="special-gift">+ CADEAU SPECIAL</span></li>
+        </ul>
+      </div>
+    </div>
+    <div id="specials">
+      <h4>OFFRES SPECIALES</h4>
+      <ul>
+        <li>Les residents beneficient d'une reduction de 10 % a partir d'une reservation de 45 minutes.</li><br />
+      </ul>
+      <h4>GROUPES</h4>
+      <ul id="special-group-ul">
+        <li>Nous serons heureux de vous faire une offre de groupe a partir de 6 personnes.</li>
+      </ul>
+    </div>
+
+  </div>
+  <div id="more-info">
+    <p>La selection des lieux de vol depend exclusivement de la direction du vent : en savoir plus sur les zones de vol
+    </p>
+    <!-- <p><a href="./flight-areas-esp.pdf" target="_blank">> Más información sobre las áreas de vuelo</a></p> -->
+
+  </div>
+
+  <!-- GALLERY -->
+  <section class="gallery">
+    <div class="gallery-item">
+      <img loading="lazy" src="../img/gallery-1-1.webp" alt="Tandem paragliding flight over Lanzarote">
+    </div>
+    <div class="gallery-item">
+      <img loading="lazy" src="../img/gallery-4.webp" alt="Paragliding above Lanzarote coastline">
+    </div>
+    <div class="gallery-item">
+      <img loading="lazy" src="../img/gallery-1-2.webp" alt="Aerial view of Lanzarote during paragliding">
+    </div>
+  </section>
+  <section class="gallery">
+    <div class="gallery-item">
+      <img loading="lazy" src="../img/gallery-1-3.webp" alt="Tandem paragliding passenger enjoying the flight">
+    </div>
+    <div class="gallery-item">
+      <img loading="lazy" src="../img/gallery-1-4.webp" alt="Paragliding over Famara beach Lanzarote">
+    </div>
+    <div class="gallery-item">
+      <img loading="lazy" src="../img/gallery-1-5.webp" alt="Scenic paragliding flight over volcanic landscape">
+    </div>
+
+  </section>
+  <section class="gallery">
+    <div class="gallery-item">
+      <img loading="lazy" src="../img/gallery-1-6.webp" alt="Tandem paragliding takeoff in Lanzarote">
+    </div>
+    <div class="gallery-item">
+      <img loading="lazy" src="../img/gallery-1-8.webp" alt="Paragliding landing on Lanzarote beach">
+    </div>
+    <div class="gallery-item">
+      <img loading="lazy" src="../img/gallery-1-9.webp" alt="Sunset paragliding experience in Lanzarote">
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section class="partner-banner">
+    <div class="partner-banner-details">
+      <h5>Nos partenaires : Passion et respect pour Lanzarote</h5>
+      <!-- <p class="partner-subtitle">Passion and Respect for Lanzarote</p> -->
+      <p>Chez LavaFly, nous choisissons nos partenaires avec le plus grand soin. Chaque entreprise présentée ici est
+        triée sur le volet – non seulement pour la qualité de ses services, mais aussi parce qu’elle partage nos
+        valeurs. Elles connaissent les particularités de cette île unique, en apprécient la beauté et s'engagent
+        activement pour sa protection.</p>
+      <p>Nous collaborons exclusivement avec des entreprises en qui nous avons une confiance absolue – afin que vous
+        puissiez, vous aussi, compter sur la qualité, la durabilité et l’authenticité de chaque recommandation.</p>
+    </div>
+  </section>
+  <!-- partner container -->
+  <div class="partner-container">
+
+    <div class="partner-logo-container">
+      <div class="partner-logo-content">
+        <div class="partner-logo">
+          <img loading="lazy" src="/img/LIGHT_LARGE_FEATURED_KAYAK.webp" alt="ING Boats Logo">
+        </div>
+        <div class="content-equal-height">
+          <p class="desc">
+            LavaFly Lanzarote est désormais également représenté dans le guide de voyage officiel KAYAK pour Teguise /
+            Lanzarote.
+          </p>
+        </div>
+      </div>
+      <div class="partner-link-wrap">
+        <a class="partner-link" href="https://www.kayak.es/Teguise.49321.guide" target="_blank">Discover more</a>
+      </div>
+    </div>
+
+    <div class="partner-logo-container">
+      <div class="partner-logo-content">
+        <div class="partner-logo">
+          <img loading="lazy" src="/img/partner-logo-1.webp" alt="ING Boats Logo">
+        </div>
+        <div class="content-equal-height">
+          <h5 class="title">Excursions en bateau et à vélo</h5>
+          <p class="desc">
+            ING Boats est votre référence à La Graciosa pour les excursions en bateau et à vélo. Pas besoin de permis,
+            juste de l’aventure pure sur l’île. Naviguez vers des criques cachées en bateau ou explorez les paysages
+            sauvages à vélo : une manière authentique et amusante de découvrir l’île.
+          </p>
+        </div>
+      </div>
+      <div class="partner-link-wrap">
+        <a class="partner-link" href="https://ingboats.com/" target="_blank">En savoir plus</a>
+      </div>
+    </div>
+
+    <div class="partner-logo-container">
+      <div class="partner-logo-content">
+        <div class="partner-logo">
+          <img loading="lazy" src="/img/partner-logo-2.webp" alt="kalaki">
+        </div>
+        <div class="content-equal-height">
+          <p class="desc">
+            Nous présentons *KALAKAI* comme une retraite authentique pour les voyageurs conscients, nichée dans la
+            nature, loin de la foule. Ce camp incarne un mode de vie durable avec style : surf, yoga, randonnées et
+            ateliers insulaires s’unissent pour offrir une expérience détendue aux vraies vibrations de Lanzarote. Un
+            partenaire qui partage pleinement nos valeurs.
+            RM Murphy: Gerne! Hier ist die Übersetzung des Textes in *Spanisch, **Italienisch* und *Französisch*:
+          </p>
+        </div>
+      </div>
+      <div class="partner-link-wrap">
+        <a class="partner-link" href="https://kalakaicamp.com/" target="_blank">En savoir plus</a>
+      </div>
+    </div>
+
+    <div class="partner-logo-container">
+      <div class="partner-logo-content">
+        <div class="partner-logo">
+          <img loading="lazy" src="/img/partner-logo-3.webp" alt="VisitLanzarote">
+        </div>
+        <div class="content-equal-height">
+          <p class="desc">
+            Découvrez-en plus sur la culture, la nature et les expériences uniques de Lanzarote sur *VisitLanzarote*, le
+            portail officiel du tourisme de l’île.
+            Planifiez votre séjour, explorez les activités et trouvez des trésors cachés, le tout en un seul endroit.
+          </p>
+        </div>
+      </div>
+      <div class="partner-link-wrap">
+        <a class="partner-link" href="https://visitlanzarote.es" target="_blank">En savoir plus</a>
+      </div>
+    </div>
+
+    <div class="partner-logo-container">
+      <div class="partner-logo-content">
+        <div class="partner-logo">
+          <img loading="lazy" src="/img/partner-logo-4.webp" alt="SmyleSurf">
+        </div>
+        <div class="content-equal-height">
+          <h5 class="title">SmyleSurf – Votre école de surf à Famara, Lanzarote</h5>
+          <p class="desc">
+            SmyleSurf est une école de surf jeune et passionnée, basée à Famara, Lanzarote. Ce qui nous distingue, c’est
+            notre approche personnalisée et notre philosophie positive. Nous proposons des sessions en petits groupes ou
+            des cours particuliers pour vous aider à progresser plus vite et à surfer en toute confiance. Avec un
+            accompagnement individuel, vous obtiendrez de meilleurs résultats et plus de plaisir dans l’eau dès le
+            début.
+          </p>
+        </div>
+      </div>
+      <div class="partner-link-wrap">
+        <a class="partner-link" href="https://smylesurfcom" target="_blank">En savoir plus</a>
+      </div>
+    </div>
+
+    <div class="partner-logo-container">
+      <div class="partner-logo-content">
+        <div class="partner-logo">
+          <img loading="lazy" src="/img/partner-logo-6.webp" alt="BodyKinetik">
+        </div>
+        <div class="content-equal-height">
+          <p class="desc">
+            *BodyKinetik* propose des massages professionnels, des soins de récupération sportive et des traitements
+            bien-être à Lanzarote — idéal pour les voyageurs actifs et ceux qui recherchent une détente profonde.
+            Que vous ayez besoin de vous recharger après une randonnée ou de relâcher le stress, nos thérapies
+            personnalisées vous aideront à vous sentir au mieux.
+            Réservez votre séance et découvrez le pouvoir de guérison du toucher dans un cadre paisible sur l’île.
+          </p>
+        </div>
+      </div>
+      <div class="partner-link-wrap">
+        <a class="partner-link" href="https://www.bodykinetik.com" target="_blank">En savoir plus</a>
+      </div>
+    </div>
+
+    <div class="partner-logo-container">
+      <div class="partner-logo-content">
+        <div class="partner-logo">
+          <img loading="lazy" src="/img/partner-logo-5.webp" alt="experiences">
+        </div>
+        <div class="content-equal-height">
+          <p class="desc">
+            Des expériences aquatiques qui vous soutiennent pour que vous puissiez lâcher prise.
+            Sentez comment l’eau vous berce, vous masse et vous invite en douceur à vous détendre et à vous abandonner.
+            De nombreuses personnes participant à ces séances font face au stress, à l’anxiété, à la fatigue, à des
+            troubles du sommeil ou à une surcharge émotionnelle.
+            D’autres viennent chercher de la clarté, de la guérison ou simplement une connexion plus profonde avec
+            elles-mêmes.
+          </p>
+        </div>
+      </div>
+      <div class="partner-link-wrap">
+        <a class="partner-link" href="https://experimentart.es" target="_blank">En savoir plus</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <span class="overtitle-section">Questions frequentes
+    </span>
+    <h2>Vous avez un doute ?
+    </h2>
+    <div class="divider"></div>
+
+    <details>
+      <summary class="accordian">COMMENT OBTENIR UN BON CADEAU?</summary>
+      <div class="faq__content panel">
+        <p> Tout d'abord, nous avons besoin du nom complet et de l'heure de vol du bénéficiaire. Dès que nous aurons ces
+          informations, nous vous enverrons le bon cadeau pour un vol tandem en parapente au format PDF. Celui-ci peut
+          être payé par Paypal, Revolut, Bizum ou carte de crédit.</p>
+      </div>
+    </details>
+    <details>
+      <summary class="accordian">QUEL EST LE POINT DE RENCONTRE ?</summary>
+      <div class="faq__content panel">
+        <p> Le lieu de rendez-vous dépend des conditions météorologiques. Notre équipe en discutera avec vous à
+          l'avance. Cependant, il peut y avoir des changements si les conditions météorologiques changent.</p>
+      </div>
+    </details>
+    <details>
+      <summary class="accordian">D'OÙ DÉCOLLONS-NOUS ?</summary>
+      <div class="faq__content panel">
+        <p> Les lieux de décollage dépendent des conditions météorologiques et peuvent être modifiés par nos pilotes à
+          tout moment.</p>
+      </div>
+    </details>
+    <details>
+      <summary class="accordian">OÙ VAIS-JE ATTERRIR ?</summary>
+      <div class="faq__content panel">
+        <p> Normalement, vous atterrirez au même endroit que celui où vous avez décollé, mais la zone d'atterrissage
+          dépend également du vent et des marées du jour. C'est toujours le pilote qui décide de l'atterrissage le plus
+          sûr en fonction des conditions de vol.</p>
+      </div>
+    </details>
+    <details>
+      <summary class="accordian">VOS PILOTES SONT-ILS QUALIFIÉS ?</summary>
+      <div class="faq__content panel">
+        <p> Oui, tous nos pilotes sont certifiés pilotes de tandem par leur organisme national de certification et ont
+          de nombreuses années d'expérience.</p>
+      </div>
+    </details>
+    <details>
+      <summary class="accordian">DOIS-JE APPORTER QUELQUE CHOSE AVEC MOI ?</summary>
+      <div class="faq__content panel">
+        <p> Nous vous recommandons de porter des chaussures dans lesquelles vous pouvez facilement faire quelques pas
+          (et qui ne tomberont pas une fois en l'air), des vêtements chauds comme un coupe-vent, une petite bouteille
+          d'eau et peut-être une protection solaire. Tout le reste de l'équipement de parapente est fourni par nos
+          soins.</p>
+      </div>
+    </details>
+    <details>
+      <summary class="accordian">PUIS-JE EMPORTER MON (MES) SAC(S) ?</summary>
+      <div class="faq__content panel">
+        <p> Il est préférable de laisser les gros sacs à votre hébergement ou dans un endroit sûr / votre voiture. Il y
+          a un compartiment pour les petits sacs et les sacs de jour dans la sellette mais nous préférons que vous
+          veniez avec le moins de bagages possible.</p>
+      </div>
+    </details>
+    <details>
+      <summary class="accordian">EST-CE QUE QUELQU'UN QUI NE FAIT PAS DE VOL TANDEM PEUT VENIR AU DÉCOLLAGE ?</summary>
+      <div class="faq__content panel">
+        <p> Tout le monde est le bienvenu !</p>
+      </div>
+    </details>
+    <details>
+      <summary class="accordian">OFFREZ-VOUS UNE RÉDUCTION POUR LES GROUPES ?</summary>
+      <div class="faq__content panel">
+        <p> Nous proposons des tarifs de groupe pour les groupes de 6 personnes ou plus. Veuillez nous contacter pour
+          connaître les tarifs de groupe.</p>
+      </div>
+    </details>
+    <details>
+      <summary class="accordian">COMMENT PAYER ?</summary>
+      <div class="faq__content panel">
+        <p> Vous pouvez payer par Paypal, Revolut, Bizum, carte ou cache. Vous pouvez payer immédiatement après votre
+          réservation ou après le vol en tandem en parapente.</p>
+      </div>
+    </details>
+  </section>
+
+  <!-- VIDEO HOME -->
+  <div id="video-home">
+    <iframe src="https://www.youtube.com/embed/joTKRvpSimY" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/k6NbAmeaGls" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  <!-- GOGGLE REVIEW -->
+  <section id="google-reviews-wrapper">
+    <div class="google-imgBox">
+      <img loading="lazy" src="../img/google-review.webp" alt="google-review" />
+    </div>
+    <div id="google-reviews"></div>
+    <a href="https://www.google.com/search?q=LAVAFLY+LANZAROTE&ei=9HwAZPmjKL6q4-EPtoeCoAw&ved=0ahUKEwj57bCVh739AhU-1TgGHbaDAMQQ4dUDCA8&uact=5&oq=LAVAFLY+LANZAROTE&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzINCC4QgAQQxwEQrwEQCkoECEEYAFAAWABgvAZoAHABeACAAbYBiAG2AZIBAzAuMZgBAKABAqABAcABAQ&sclient=gws-wiz-serp#lrd=0xc46210155d7965b:0x36207829122b0df6,1,,,,"
+      target="_blank">See All Our Google Reviews</a>
+  </section>
+  <!-- CONTACT -->
+  <footer id="contact">
+    <img id="logo-footer" src="../img/logo-lavafly.webp" alt="logo-lavafly">
+    <div id="contact-footer">
+      <span class="overtitle-section-secondary">RÉSERVEZ VOTRE AVENTURE MAINTENANT </span>
+      <h2>NOUS CONTACTER!</h2>
+      <div id="cta-container">
+        <div id="whatsapp" class="cta">
+          <h4>Whatsapp</h4>
+          <img loading="lazy" src="../img/whatsapp-icon.webp" alt="WhatsApp icon">
+          <a href="https://api.whatsapp.com/send?phone=34624503469" target="_blank">+34 624 50 34 69</a>
+        </div>
+        <div id="email" class="cta">
+          <h4>Courrier</h4>
+          <img loading="lazy" src="../img/mail.webp" alt="Email icon">
+          <a href="mailto:info@lavaflylanzarote.com" target="_blank">info@lavaflylanzarote.com</a>
+        </div>
+        <div id="phone" class="cta">
+          <h4>Téléphone</h4>
+          <img loading="lazy" src="../img/phone.webp" alt="Phone icon">
+          <a href="tel:+34624503469" target="_blank">+34 624 50 34 69</a>
+        </div>
+      </div>
+    </div>
+    <div id="social-icons">
+      <a href="https://www.instagram.com/lavaflylanzarote/" target="_blank"><img loading="lazy"
+          src="../img/instagram.webp" alt="LavaFly on Instagram"></a>
+      <a href="https://www.facebook.com/lavaflylanzarote/" target="_blank"><img loading="lazy"
+          src="../img/facebook.webp" alt="LavaFly on Facebook"></a>
+      <a href="https://www.tripadvisor.it/Attraction_Review-g652122-d19393458-Reviews-Lava_Fly_Lanzarote-Teguise_Lanzarote_Canary_Islands.html"
+        target="_blank"><img loading="lazy" src="../img/tripadvisor.webp" alt="LavaFly on TripAdvisor"></a>
+      <a href="https://www.youtube.com/channel/UCSVKvZBmCHQ4MOhCqRTBwpA" target="_blank"><img loading="lazy"
+          src="../img/youtube.webp" alt="LavaFly on YouTube"></a>
+    </div>
+  </footer>
+  <a href="https://api.whatsapp.com/send?phone=34624503469" target="_blank""><img loading=" lazy"
+    src=" ../img/whatsapp-icon.webp" id="whatsapp-footer" alt="Contact us on WhatsApp"></a>
+
+
+
+
+  <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="../js/plugins.js"></script>
+  <script src="../js/main.js"></script>
+
+  <!-- Slick Carousel (moved from head to eliminate render-blocking) -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  </noscript>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  </noscript>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    jQuery(document).ready(function ($) {
+      jQuery('.partner-container').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: true,
+        responsive: [
           {
             breakpoint: 1024,
             settings: {
@@ -70,510 +653,9 @@
             }
           }
         ]
-     });
-   });
- </script>
-</head>
-
-<body>
-<!-- HERO -->
-  <div id="hero-container">
-    <header id="my-header">
-      <div id="logo-container">
-        <img src="../img/logo-lavafly.png"/>
-      </div>
-      <nav id="nav-mobile">
-        <ul>
-          <li><a href="#about">
-            QUI SOMMES NOUS</a></li>
-          <li><a href="#tandem-flights">VOLS</a></li>
-          <li><a href="#gift-card">CARTE-CADEAU          </a></li>
-          <li><a href="#faq">QUESTIONS FRÉQUENTES
-          </a></li>
-          <li><a href="#contact">CONTACT</a></li>
-          <li><a href="/fr/contract">CONTRAT</a></li>
-
-          <li><a href="/"><img src="/img/uk-flag.png" width="24px" alt="uk-flag"></a></li>
-          <li><a href="/es"><img src="/img/spain-flag.png" width="24px" alt="spain-flag" id="spain-flag-fr-version"></a></li>
-          <li><a href="/it"><img src="/img/italy-flag.png" width="24px" alt="italy-flag" id="spain-flag-fr-version"></a></li>
-
-        </ul>
-      </nav>
-      <nav id="nav-desktop">
-        <ul>
-          <li><a href="#about">QUI SOMMES NOUS</a></li>
-          <li><a href="#tandem-flights">VOLS</a></li>
-          <li><a href="#gift-card">CARTE-CADEAU</a></li>
-          <li><a href="#faq">QUESTIONS FRÉQUENTES</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-          <li><a href="/fr/contract">CONTRAT</a></li>
-          <div class="flag-desktop-container">
-            <a href="/"><img src="/img/uk-flag.png" width="24px" alt="french-flag"></a>
-            <a href="/es"><img src="/img/spain-flag.png" width="24px" alt="spain-flag"></a>
-            <a href="/it"><img src="/img/italy-flag.png" width="24px" alt="italy-flag"></a>
-        </div>
-        </ul>
-      </nav>
-    </header>
-    <div id="burger-icon">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-    <div id="closing-menu-icon">
-      x
-    </div>
-  </div>
-<div id="hero-text">
-  <span id="overtitle-hero">VOLS TANDEM
-  </span>
-  <!--  <h2><span id="lavafly">LAVAFLY</span> LANZAROTE</h2>-->
-  <h1>TANDEM PARAGLIDING LANZAROTE</h1>
-  <p id="next-adventure">Prêt pour votre prochaine aventure ?</p>
-  <a href="https://api.whatsapp.com/send?phone=34624503469" id="book-now">réserver</a>
-</div>
-
-<!-- ABOUT -->
-<div id="about">
-  <div id="about-left">
-    <img src="../img/lanzarote-paragliding-team.jpg">
-  </div>
-  <div id="about-right">
-    <span class="overtitle-section">Notre équipe</span>
-    <h2>Plus de 20 ans d’expérience en vol </h2>
-    <div class="divider"></div>
-<p>
-  Nos instructeurs certifiés et nos pilotes tandems disposent de plus de 25 ans d’expérience. Notre mission est d’offrir de nouvelles perspectives inspirantes du monde à travers des sauts en parapente. Nous prêtons une attention particulière au confort et au bien-être de nos passagers en assurant sécurité et plaisir maximums. L’équipement du pilote est régulièrement vérifié et changé.
-
-</p>
-
-</div>
-</div>
-
-<!-- PILOTS -->
-<div id="pilots">
-  <h2>L’équipe de Lavafly</h2>
-  <div class="divider"></div>
- <div id="pilots-img-container">
-  <div>
-    <img src="../img/paragliding-lanzariote-murphy.jpg">
-    <h3>Murphy</h3>
-    <p>22 années d’expérience en vol. Instructeur de vol et pilot tandem certifié internationalement. Ancien athlète professionnel, vole dans les îles Canaries depuis plus de 10 ans.
-    </p>
-    <span><em>“ Que pourrait-il y avoir de plus beau dans la vie que d’avoir de l’amour et de la passion pour son travail, et partager, chaque jour la joie et l’émerveillement de mes passagers ?”
-    </em></span>
-  </div>
-  <div>
-    <img src="../img/paragliding-lanzarote-michi.jpg">
-    <h3>Michi</h3>
-    <p>10 ans d’expérience en vol. Pilot tandem certifié d’état, spécialiste de randonnées et d’activités aériennes, ingénieur des sports et employé durant une longue période pour Skywalks (fabricant de parapentes).</p>
-    <span><em>“Les montagnes ont toujours été ma maison. Mais la perspective et la liberté d’être dans les airs est simplement incroyable”.</em></span>
-
-  </div>
-  <div class="darlo-card">
-     <img src="../img/gustavo.png">
-    <h3>Gustavo</h3>
-    <p>Gustavo est notre gaucho argentin de Patagonie. Avec sa bonne humeur constante, ses compétences multilingues et son talent exceptionnel à la fois comme assistant et comme musicien, il apporte un esprit unique à notre équipe.</p>
-  </div>
-  <div>
-    <img src="../img/paragliding-lanzarote-sandro.jpg">
-    <h3>Sandro</h3>
-    <p>Sandro est l’un des meilleurs professeurs de surf depuis plus de 15 ans. Il accompagne l’équipe Lavafly depuis maintenant 5 ans, et il s’initie doucement au vol en autonomie.
-    </p>
-  </div>
- </div>
-</div>
-
-<!-- GIFT CARD -->
-<section id="gift-card">
-  <div id="gift-card-left">
-    <h3>
-      Envie de faire un cadeau spécial ?</h3>
-
-      <p>Anniversaire</br> Mariage</br> Anniversaire</br></br>
-        Si vous souhaitez offrir une carte cadeau, quelle que soit l’occasion, contactez nous !
-</p>
-      <p>Un rendez-vous convenu peut être annulé 24 heures à l'avance. Si un rendez-vous convenu est annulé à court terme par le client, nous nous réservons le droit de retenir 50% de la valeur.</p>
-
-
-    <!-- <a href="#contact">CONTACT US</a> -->
-  </div>
-  <div id="gift-card-center">
-    <img width="100%" src="../img/voucher.jpg" alt="paragliding-gift-card"></img>
-    <a href="#contact" id="contact-gift">CONTÁCTANOS</a>
-
-  </div>
-  <div id="gift-card-right">
-    <img src="../img/paragliding-girft-card-2.jpg" alt="paragliding-gift-card"></img>
-<p class="voucher-text">
-      Nos bons sont transférables et peuvent être facilement partagés avec vos amis ou votre famille. En cas d’annulation, des frais de traitement de 30 % s’appliquent
-    </p>
-  </div>
-</section>
-
-<!-- TANDEM FLIGHTS -->
-<div id="tandem-flights">
-  <div id="tandem-flights-left">
-    <iframe width="100%" height="350px" src="https://www.youtube.com/embed/SggqxtG3dXw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-  </div>
-  <div id="tandem-flights-right">
-   <span class="overtitle-section-secondary">Pour une aventure extra-ordinaire
-  </span>
-   <h2>Saut en tandem   </h2>
-   <p>Les îles Canaries offrent des conditions optimales pour un saut de parapente en tandem. Depuis la terre, la biodiversité de Lanzarote est impressionnante. Des montagnes noires de laves, une végétation luxuriante, des villages aux murs blancs, des récifs de coraux et des plages préservés. Observer ces paysages depuis le ciel est une expérience inspirante et inoubliable. Tel un oiseau, vous glisserez au dessus de la mer Laminar en vous laissant porter par les vents des cotes. Vous survolerez plus de 15kilomètres des plages du Riscos de Famara, à une haute de 600 mètres, au dessus des falaises de l’île volcanique. Si les conditions le permettent vous pourrez même atteindre la magnifique île voisine de la Graciosa. Des vents favorables peuvent également vous permettre de voler jusqu’à Orzola ou le Mirador del Rio. De là, vous pouvez atterrir au paradis, vous reposer sur la plage en arrivant et vous rafraichir l’esprit avec un plongeon dans l’eau transparente. Une fois arrivée au point de départ, nous commençons l’explication précise de la préparation. Une fois les points de sécurités abordés et les conditions météo ayant été validées et définies “sûres” par le pilote, vous serez à quelques pas de commencer votre voyage dans le ciel. Habituellement, nous nous élançons dans les vents canariens, juste à quelques même du site de lancement, et nos nous envolons gracieusement comme des oiseaux.
-
-  </p>
-
-  </div>
-
-</div>
-
-<!-- SPECIALS -->
-<div id="specials-section">
-  <div id="flight-areas">
-    <h4>ZONE DE VOL</h4>
-    <ol>
-      <li>Mala</li>
-      <li>Playa de Orzola</li>
-      <li>La Graciosa</li>
-      <li>Risco de Famara</li>
-      <li>Tenesar</li>
-      <li>Playa Quemada</li>
-      <li>La Asomada/Macher</li>
-    </ol>
-  </div>
-  <div id="flight-prices">
-    <h4>PRIX</h4>
-    <ul class="price-list">
-      <li>20 min. +-<span> - </span> 90.00€</li>
-      <li>30 min. +-<span class="marginLeft"> - </span>120.00€</li>
-      <li>45 min. +-<span class="marginLeft10"> - </span> 140.00€</li>
-    </ul>
-    <ul id="flight-center-ul">
-      <li>Photo & Videos  <span>20,00€</span></li>
-      <li id="micro-sd">Nous vous enverrons un lien de téléchargement via WeTransfer le jour même !</li>
-    </ul>
-    <div id="special-column">
-      <h4>SPECIAL</h4>
-      <ul>
-        <li>60 min. +-<span  class="marginLeft"> - </span>220.00€ </li>
-        <li> compris Photos & Videos gratuites <span class="special-gift">+ CADEAU SPECIAL</span></li>
-        </ul>
-    </div>
-  </div>
-  <div id="specials">
-    <h4>OFFRES SPECIALES</h4>
-    <ul>
-      <li>Les residents beneficient d'une reduction de 10 % a partir d'une reservation de 45 minutes.</li><br/>
-    </ul>
-    <h4>GROUPES</h4>
-    <ul id="special-group-ul">
-      <li>Nous serons heureux de vous faire une offre de groupe a partir de 6 personnes.</li>
-    </ul>
-  </div>
-
-</div>
-<div id="more-info">
-  <p >La selection des lieux de vol depend exclusivement de la direction du vent : en savoir plus sur les zones de vol
-  </p>
-  <!-- <p><a href="./flight-areas-esp.pdf" target="_blank">> Más información sobre las áreas de vuelo</a></p> -->
-
-</div>
-
-<!-- GALLERY -->
-<section class="gallery">
-  <div class="gallery-item">
-    <img src="../img/gallery-1-1.jpg" alt="">
-  </div>
-  <div class="gallery-item">
-    <img src="../img/gallery-4.jpg" alt="">
-  </div>
-  <div class="gallery-item">
-    <img src="../img/gallery-1-2.jpg" alt="">
-  </div>
-</section>
-<section class="gallery">
-  <div class="gallery-item">
-    <img src="../img/gallery-1-3.jpg" alt="">
-  </div>
-  <div class="gallery-item">
-    <img src="../img/gallery-1-4.jpg" alt="">
-  </div>
-  <div class="gallery-item">
-    <img src="../img/gallery-1-5.jpg" alt="">
-  </div>
-
-</section>
-<section class="gallery">
-  <div class="gallery-item">
-    <img src="../img/gallery-1-6.jpg" alt="">
-  </div>
-  <div class="gallery-item">
-    <img src="../img/gallery-1-8.jpg" alt="">
-  </div>
-  <div class="gallery-item">
-    <img src="../img/gallery-1-9.jpg" alt="">
-  </div>
-</section>
-
-  <!-- Partners -->
-  <section class="partner-banner">
-    <div class="partner-banner-details">
-      <h5>Nos partenaires : Passion et respect pour Lanzarote</h5>
-      <!-- <p class="partner-subtitle">Passion and Respect for Lanzarote</p> -->
-      <p>Chez LavaFly, nous choisissons nos partenaires avec le plus grand soin. Chaque entreprise présentée ici est triée sur le volet – non seulement pour la qualité de ses services, mais aussi parce qu’elle partage nos valeurs. Elles connaissent les particularités de cette île unique, en apprécient la beauté et s'engagent activement pour sa protection.</p>
-      <p>Nous collaborons exclusivement avec des entreprises en qui nous avons une confiance absolue – afin que vous puissiez, vous aussi, compter sur la qualité, la durabilité et l’authenticité de chaque recommandation.</p>
-    </div>
-  </section>
-  <!-- partner container -->
-  <div class="partner-container">
-
-    <div class="partner-logo-container">
-      <div class="partner-logo-content">
-        <div class="partner-logo">
-          <img src="/img/LIGHT_LARGE_FEATURED_KAYAK.png" alt="ING Boats Logo">
-        </div>
-        <div class="content-equal-height">
-          <p class="desc">
-            LavaFly Lanzarote est désormais également représenté dans le guide de voyage officiel KAYAK pour Teguise / Lanzarote.
-          </p>
-        </div>
-      </div>
-      <div class="partner-link-wrap">
-        <a class="partner-link" href="https://www.kayak.es/Teguise.49321.guide" target="_blank">Discover more</a>
-      </div>
-    </div>
-
-    <div class="partner-logo-container">
-      <div class="partner-logo-content">
-        <div class="partner-logo">
-          <img src="/img/partner-logo-1.png" alt="ING Boats Logo">
-        </div>
-        <div class="content-equal-height">
-          <h5 class="title">Excursions en bateau et à vélo</h5>
-          <p class="desc">
-            ING Boats est votre référence à La Graciosa pour les excursions en bateau et à vélo. Pas besoin de permis, juste de l’aventure pure sur l’île. Naviguez vers des criques cachées en bateau ou explorez les paysages sauvages à vélo : une manière authentique et amusante de découvrir l’île.
-          </p>
-        </div>
-      </div>
-      <div class="partner-link-wrap">
-        <a class="partner-link" href="https://ingboats.com/" target="_blank">En savoir plus</a>
-      </div>
-    </div>
-
-    <div class="partner-logo-container">
-      <div class="partner-logo-content">
-        <div class="partner-logo">
-          <img src="/img/partner-logo-2.png" alt="kalaki">
-        </div>
-        <div class="content-equal-height">
-          <p class="desc">
-            Nous présentons *KALAKAI* comme une retraite authentique pour les voyageurs conscients, nichée dans la nature, loin de la foule. Ce camp incarne un mode de vie durable avec style : surf, yoga, randonnées et ateliers insulaires s’unissent pour offrir une expérience détendue aux vraies vibrations de Lanzarote. Un partenaire qui partage pleinement nos valeurs.
-            RM Murphy: Gerne! Hier ist die Übersetzung des Textes in *Spanisch, **Italienisch* und *Französisch*:
-          </p>
-        </div>
-      </div>
-      <div class="partner-link-wrap">
-        <a class="partner-link" href="https://kalakaicamp.com/" target="_blank">En savoir plus</a>
-      </div>
-    </div>
-
-    <div class="partner-logo-container">
-      <div class="partner-logo-content">
-        <div class="partner-logo">
-          <img src="/img/partner-logo-3.png" alt="VisitLanzarote">
-        </div>
-        <div class="content-equal-height">
-          <p class="desc">
-            Découvrez-en plus sur la culture, la nature et les expériences uniques de Lanzarote sur *VisitLanzarote*, le portail officiel du tourisme de l’île.
-Planifiez votre séjour, explorez les activités et trouvez des trésors cachés, le tout en un seul endroit.
-          </p>
-        </div>
-      </div>
-      <div class="partner-link-wrap">
-        <a class="partner-link" href="https://visitlanzarote.es" target="_blank">En savoir plus</a>
-      </div>
-    </div>
-
-    <div class="partner-logo-container">
-      <div class="partner-logo-content">
-        <div class="partner-logo">
-          <img src="/img/partner-logo-4.png" alt="SmyleSurf">
-        </div>
-        <div class="content-equal-height">
-          <h5 class="title">SmyleSurf – Votre école de surf à Famara, Lanzarote</h5>
-          <p class="desc">
-SmyleSurf est une école de surf jeune et passionnée, basée à Famara, Lanzarote. Ce qui nous distingue, c’est notre approche personnalisée et notre philosophie positive. Nous proposons des sessions en petits groupes ou des cours particuliers pour vous aider à progresser plus vite et à surfer en toute confiance. Avec un accompagnement individuel, vous obtiendrez de meilleurs résultats et plus de plaisir dans l’eau dès le début.
-          </p>
-        </div>
-      </div>
-      <div class="partner-link-wrap">
-        <a class="partner-link" href="https://smylesurfcom" target="_blank">En savoir plus</a>
-      </div>
-    </div>
-
-    <div class="partner-logo-container">
-      <div class="partner-logo-content">
-        <div class="partner-logo">
-          <img src="/img/partner-logo-6.png" alt="BodyKinetik">
-        </div>
-        <div class="content-equal-height">
-          <p class="desc">
-            *BodyKinetik* propose des massages professionnels, des soins de récupération sportive et des traitements bien-être à Lanzarote — idéal pour les voyageurs actifs et ceux qui recherchent une détente profonde.
-Que vous ayez besoin de vous recharger après une randonnée ou de relâcher le stress, nos thérapies personnalisées vous aideront à vous sentir au mieux.
-Réservez votre séance et découvrez le pouvoir de guérison du toucher dans un cadre paisible sur l’île.
-          </p>
-        </div>
-      </div>
-      <div class="partner-link-wrap">
-        <a class="partner-link" href="https://www.bodykinetik.com" target="_blank">En savoir plus</a>
-      </div>
-    </div>
-
-    <div class="partner-logo-container">
-      <div class="partner-logo-content">
-        <div class="partner-logo">
-          <img src="/img/partner-logo-5.png" alt="experiences">
-        </div>
-        <div class="content-equal-height">
-          <p class="desc">
-            Des expériences aquatiques qui vous soutiennent pour que vous puissiez lâcher prise.
-Sentez comment l’eau vous berce, vous masse et vous invite en douceur à vous détendre et à vous abandonner.
-De nombreuses personnes participant à ces séances font face au stress, à l’anxiété, à la fatigue, à des troubles du sommeil ou à une surcharge émotionnelle.
-D’autres viennent chercher de la clarté, de la guérison ou simplement une connexion plus profonde avec elles-mêmes.
-          </p>
-        </div>
-      </div>
-      <div class="partner-link-wrap">
-        <a class="partner-link" href="https://experimentart.es" target="_blank">En savoir plus</a>
-      </div>
-    </div>
-
-  </div>
-
-<!-- FAQ -->
-<section id="faq">
-  <span class="overtitle-section">Questions frequentes
-  </span>
-  <h2>Vous avez un doute ?
-  </h2>
-  <div class="divider"></div>
-
-  <details>
-    <summary class="accordian">COMMENT OBTENIR UN BON CADEAU?</summary>
-    <div class="faq__content panel">
-      <p> Tout d'abord, nous avons besoin du nom complet et de l'heure de vol du bénéficiaire. Dès que nous aurons ces informations, nous vous enverrons le bon cadeau pour un vol tandem en parapente au format PDF. Celui-ci peut être payé par Paypal, Revolut, Bizum ou carte de crédit.</p>
-    </div>
-  </details>
-  <details>
-    <summary class="accordian">QUEL EST LE POINT DE RENCONTRE ?</summary>
-    <div class="faq__content panel">
-      <p> Le lieu de rendez-vous dépend des conditions météorologiques. Notre équipe en discutera avec vous à l'avance. Cependant, il peut y avoir des changements si les conditions météorologiques changent.</p>
-    </div>
-  </details>
-  <details>
-    <summary class="accordian">D'OÙ DÉCOLLONS-NOUS ?</summary>
-    <div class="faq__content panel">
-      <p> Les lieux de décollage dépendent des conditions météorologiques et peuvent être modifiés par nos pilotes à tout moment.</p>
-    </div>
-  </details>
-  <details>
-    <summary class="accordian">OÙ VAIS-JE ATTERRIR ?</summary>
-    <div class="faq__content panel">
-      <p> Normalement, vous atterrirez au même endroit que celui où vous avez décollé, mais la zone d'atterrissage dépend également du vent et des marées du jour. C'est toujours le pilote qui décide de l'atterrissage le plus sûr en fonction des conditions de vol.</p>
-    </div>
-  </details>
-  <details>
-    <summary class="accordian">VOS PILOTES SONT-ILS QUALIFIÉS ?</summary>
-    <div class="faq__content panel">
-      <p> Oui, tous nos pilotes sont certifiés pilotes de tandem par leur organisme national de certification et ont de nombreuses années d'expérience.</p>
-    </div>
-  </details>
-  <details>
-    <summary class="accordian">DOIS-JE APPORTER QUELQUE CHOSE AVEC MOI ?</summary>
-    <div class="faq__content panel">
-      <p> Nous vous recommandons de porter des chaussures dans lesquelles vous pouvez facilement faire quelques pas (et qui ne tomberont pas une fois en l'air), des vêtements chauds comme un coupe-vent, une petite bouteille d'eau et peut-être une protection solaire. Tout le reste de l'équipement de parapente est fourni par nos soins.</p>
-    </div>
-  </details>
-  <details>
-    <summary class="accordian">PUIS-JE EMPORTER MON (MES) SAC(S) ?</summary>
-    <div class="faq__content panel">
-      <p> Il est préférable de laisser les gros sacs à votre hébergement ou dans un endroit sûr / votre voiture. Il y a un compartiment pour les petits sacs et les sacs de jour dans la sellette mais nous préférons que vous veniez avec le moins de bagages possible.</p>
-    </div>
-  </details>
-  <details>
-    <summary class="accordian">EST-CE QUE QUELQU'UN QUI NE FAIT PAS DE VOL TANDEM PEUT VENIR AU DÉCOLLAGE ?</summary>
-    <div class="faq__content panel">
-      <p> Tout le monde est le bienvenu !</p>
-    </div>
-  </details>
-  <details>
-    <summary class="accordian">OFFREZ-VOUS UNE RÉDUCTION POUR LES GROUPES ?</summary>
-    <div class="faq__content panel">
-      <p> Nous proposons des tarifs de groupe pour les groupes de 6 personnes ou plus. Veuillez nous contacter pour connaître les tarifs de groupe.</p>
-    </div>
-  </details>
-  <details>
-    <summary class="accordian">COMMENT PAYER ?</summary>
-    <div class="faq__content panel">
-      <p> Vous pouvez payer par Paypal, Revolut, Bizum, carte ou cache. Vous pouvez payer immédiatement après votre réservation ou après le vol en tandem en parapente.</p>
-    </div>
-  </details>
-</section>
-
-<!-- VIDEO HOME -->
-<div id="video-home">
-  <iframe src="https://www.youtube.com/embed/joTKRvpSimY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe src="https://www.youtube.com/embed/k6NbAmeaGls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-  <!-- GOGGLE REVIEW -->
-  <section id="google-reviews-wrapper">
-    <div class="google-imgBox">
-      <img src="../img/google-review.png" alt="google-review" />
-    </div>
-    <div id="google-reviews"></div>
-    <a  href="https://www.google.com/search?q=LAVAFLY+LANZAROTE&ei=9HwAZPmjKL6q4-EPtoeCoAw&ved=0ahUKEwj57bCVh739AhU-1TgGHbaDAMQQ4dUDCA8&uact=5&oq=LAVAFLY+LANZAROTE&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzINCC4QgAQQxwEQrwEQCkoECEEYAFAAWABgvAZoAHABeACAAbYBiAG2AZIBAzAuMZgBAKABAqABAcABAQ&sclient=gws-wiz-serp#lrd=0xc46210155d7965b:0x36207829122b0df6,1,,,," target="_blank">See All Our Google Reviews</a>
-</section>
-<!-- CONTACT -->
-<footer id="contact">
-  <img id="logo-footer" src="../img/logo-lavafly.png" alt="logo-lavafly">
-  <div id="contact-footer">
-    <span class="overtitle-section-secondary">RÉSERVEZ VOTRE AVENTURE MAINTENANT </span>
-    <h2>NOUS CONTACTER!</h2>
-    <div id="cta-container">
-      <div id="whatsapp" class="cta">
-        <h4>Whatsapp</h4>
-       <img src="../img/whatsapp-icon.png">
-       <a href="https://api.whatsapp.com/send?phone=34624503469" target="_blank">+34 624 50 34 69</a>
-      </div>
-      <div id="email" class="cta">
-        <h4>Courrier</h4>
-        <img src="../img/mail.png">
-       <a href="mailto:info@lavaflylanzarote.com" target="_blank">info@lavaflylanzarote.com</a>
-      </div>
-      <div id="phone" class="cta">
-        <h4>Téléphone</h4>
-        <img src="../img/phone.png">
-        <a href="tel:+34624503469" target="_blank">+34 624 50 34 69</a>
-      </div>
-  </div>
-  </div>
-  <div id="social-icons">
-    <a href="https://www.instagram.com/lavaflylanzarote/" target="_blank"><img src="../img/instagram.png"></a>
-    <a href="https://www.facebook.com/lavaflylanzarote/" target="_blank"><img src="../img/facebook.png"></a>
-    <a href="https://www.tripadvisor.it/Attraction_Review-g652122-d19393458-Reviews-Lava_Fly_Lanzarote-Teguise_Lanzarote_Canary_Islands.html" target="_blank"><img src="../img/tripadvisor.png"></a>
-    <a href="https://www.youtube.com/channel/UCSVKvZBmCHQ4MOhCqRTBwpA" target="_blank"><img src="../img/youtube.png"></a>
-  </div>
-</footer>
-<a href="https://api.whatsapp.com/send?phone=34624503469" target="_blank""><img src="../img/whatsapp-icon.png" id="whatsapp-footer"alt=""></a>
-
-
-
-
-  <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="../js/plugins.js"></script>
-  <script src="../js/main.js"></script>
+      });
+    });
+  </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
