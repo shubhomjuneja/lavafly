@@ -1,0 +1,586 @@
+/* Tandem Paragliding Lanzarote Page Styles */
+
+/* ======================================================================
+   PAGE CONTENT WRAPPER
+   ====================================================================== */
+.tp-content-wrapper {
+    margin: 0 15px;
+    margin-top: -48vh;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 3;
+    background-color: #fff;
+}
+
+/* ======================================================================
+   PAGE HERO TEXT (overlaid on #hero-container)
+   ====================================================================== */
+.tp-hero-text {
+    z-index: 2;
+    position: relative;
+    bottom: 80vh;
+    text-align: center;
+    color: #fff;
+    padding: 0 15px;
+}
+
+.tp-hero-text h1 {
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.tp-hero-text .tp-hero-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* ======================================================================
+   WHATSAPP CTA BUTTON
+   ====================================================================== */
+.tp-whatsapp-cta {
+    text-align: center;
+    padding: 35px 20px;
+    margin: 40px 0;
+    border-radius: 12px;
+}
+
+.tp-whatsapp-cta a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #25D366;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.tp-whatsapp-cta a:hover {
+    background-color: #1fb855;
+}
+
+.tp-cta-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    flex-shrink: 0;
+    transform: translateY(-2px);
+}
+
+.tp-whatsapp-cta .tp-cta-note {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #888;
+    font-style: italic;
+}
+
+/* Hero CTA (positioned inside hero — matches homepage #next-adventure) */
+.tp-hero-cta {
+    position: relative;
+    top: 36vh;
+}
+
+.tp-hero-cta a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--yellow);
+    padding: 15px 45px;
+    text-decoration: none;
+    color: #222;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: padding 0.1s;
+    text-transform: uppercase;
+}
+
+.tp-hero-cta a:hover {
+    padding: 18px 48px;
+}
+
+.tp-hero-cta .tp-cta-note {
+    display: block;
+    margin-top: 12px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.75);
+    font-style: italic;
+}
+
+/* ======================================================================
+   SECTION STYLES
+   ====================================================================== */
+.tp-section {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.tp-section:last-of-type {
+    border-bottom: none;
+}
+
+.tp-section-heading {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--brown);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tp-section p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.tp-section ul {
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+.tp-section ul li {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #444;
+    padding: 6px 0 6px 28px;
+    position: relative;
+    list-style: none;
+}
+
+.tp-section ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--brown);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* ======================================================================
+   INTRO SECTION
+   ====================================================================== */
+.tp-intro {
+    padding-top: 20px;
+}
+
+.tp-intro .overtitle-section {
+    top: 0;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* ======================================================================
+   STEP CARDS (What to Expect)
+   ====================================================================== */
+.tp-steps-container {
+    margin: 25px 0;
+}
+
+.tp-step-card {
+    background-color: #f9f9f9;
+    border-left: 4px solid var(--brown);
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    border-radius: 0 8px 8px 0;
+}
+
+.tp-step-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--brown);
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.tp-step-card .tp-step-number {
+    display: inline-block;
+    background-color: var(--brown);
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.tp-step-card p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #555;
+    margin: 0;
+}
+
+.tp-step-card ul {
+    padding-left: 0;
+    margin: 10px 0 0;
+}
+
+.tp-step-card ul li {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #555;
+    padding: 4px 0 4px 24px;
+}
+
+.tp-step-card ul li::before {
+    font-size: 14px;
+}
+
+/* ======================================================================
+   SAFETY SECTION (highlight box)
+   ====================================================================== */
+.tp-safety-box {
+    background-color: #f5f0eb;
+    border-radius: 12px;
+    padding: 30px 25px;
+    margin: 30px 0;
+}
+
+.tp-safety-box h2 {
+    color: var(--brown);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.tp-safety-box ul li::before {
+    content: "✓";
+    color: #25D366;
+}
+
+/* ======================================================================
+   INTERNAL LINKS SECTION
+   ====================================================================== */
+.tp-internal-links {
+    margin: 40px 0;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+}
+
+.tp-internal-links h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--brown);
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.tp-internal-links ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.tp-internal-links ul li {
+    padding: 8px 0 8px 28px;
+}
+
+.tp-internal-links ul li::before {
+    content: "→";
+    color: var(--yellow);
+    font-weight: 700;
+}
+
+.tp-internal-links ul li a {
+    color: var(--brown);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.tp-internal-links ul li a:hover {
+    border-bottom-color: var(--brown);
+}
+
+/* ======================================================================
+   FAQ SECTION (extends existing main.css accordion styles)
+   ====================================================================== */
+.tp-faq {
+    margin: 40px 0 60px;
+}
+
+.tp-faq .overtitle-section {
+    top: 0;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* ======================================================================
+   DESKTOP RESPONSIVE
+   ====================================================================== */
+@media (min-width: 968px) {
+    .tp-content-wrapper {
+        margin: -22vh 15vw 0;
+        padding-top: 20px;
+    }
+
+    .tp-hero-text h1 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .tp-hero-text .tp-hero-subtitle {
+        font-size: 18px;
+    }
+
+    .tp-section-heading {
+        font-size: 26px;
+    }
+
+    .tp-section p,
+    .tp-section ul li {
+        font-size: 16px;
+    }
+
+    .tp-step-card {
+        padding: 25px 30px;
+    }
+
+    .tp-step-card h3 {
+        font-size: 18px;
+    }
+
+    .tp-step-card p,
+    .tp-step-card ul li {
+        font-size: 15px;
+    }
+
+    .tp-whatsapp-cta a {
+        font-size: 16px;
+        padding: 18px 40px;
+    }
+
+    .tp-faq {
+        margin: 60px 0 80px;
+    }
+}
+
+/* ======================================================================
+   TABLET RESPONSIVE (601px – 967px)
+   ====================================================================== */
+@media only screen and (max-width: 967px) {
+    .tp-content-wrapper {
+        margin: -20vh 20px 0;
+        padding-top: 15px;
+    }
+
+    .tp-hero-text {
+        bottom: 75vh;
+    }
+
+    .tp-hero-text h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .tp-hero-text .tp-hero-subtitle {
+        font-size: 15px;
+        max-width: 90%;
+    }
+
+    .tp-hero-cta {
+        top: 30vh;
+    }
+
+    .tp-hero-cta a {
+        padding: 12px 35px;
+        font-size: 11px;
+    }
+
+    .tp-section {
+        margin-bottom: 35px;
+        margin-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    .tp-section-heading {
+        font-size: 20px;
+    }
+
+    .tp-whatsapp-cta {
+        padding: 25px 15px;
+        margin: 30px 0;
+    }
+
+    .tp-whatsapp-cta a {
+        padding: 14px 24px;
+        font-size: 14px;
+    }
+
+    .tp-safety-box {
+        padding: 25px 20px;
+    }
+
+    .tp-internal-links {
+        padding: 20px;
+    }
+
+    .tp-faq {
+        margin: 30px 0 50px;
+    }
+}
+
+/* ======================================================================
+   MOBILE RESPONSIVE (max 600px)
+   ====================================================================== */
+@media only screen and (max-width: 600px) {
+    .tp-content-wrapper {
+        margin: -15vh 10px 0;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    .tp-hero-text {
+        bottom: 70vh;
+        padding: 0 10px;
+    }
+
+    .tp-hero-text h1 {
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+    }
+
+    .tp-hero-text .tp-hero-subtitle {
+        font-size: 13px;
+        max-width: 95%;
+        margin: 0 auto 20px;
+        line-height: 1.6;
+    }
+
+    .tp-hero-cta {
+        top: 25vh;
+    }
+
+    .tp-hero-cta a {
+        padding: 10px 25px;
+        font-size: 10px;
+        gap: 6px;
+    }
+
+    .tp-hero-cta .tp-cta-note {
+        font-size: 11px;
+        margin-top: 8px;
+    }
+
+    .tp-intro {
+        padding-top: 10px;
+    }
+
+    .tp-section {
+        margin-bottom: 25px;
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .tp-section-heading {
+        font-size: 18px;
+        letter-spacing: 0.3px;
+    }
+
+    .tp-section p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .tp-section ul li {
+        font-size: 14px;
+        padding: 5px 0 5px 24px;
+    }
+
+    .tp-whatsapp-cta {
+        padding: 20px 10px;
+        margin: 25px 0;
+    }
+
+    .tp-whatsapp-cta a {
+        padding: 12px 20px;
+        font-size: 13px;
+        gap: 8px;
+        border-radius: 40px;
+    }
+
+    .tp-cta-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .tp-whatsapp-cta .tp-cta-note {
+        font-size: 12px;
+    }
+
+    .tp-step-card {
+        padding: 15px 18px;
+        margin-bottom: 15px;
+    }
+
+    .tp-step-card h3 {
+        font-size: 15px;
+    }
+
+    .tp-step-card p,
+    .tp-step-card ul li {
+        font-size: 13px;
+    }
+
+    .tp-step-card .tp-step-number {
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 12px;
+    }
+
+    .tp-safety-box {
+        padding: 20px 15px;
+        border-radius: 8px;
+        margin: 20px 0;
+    }
+
+    .tp-safety-box h2 {
+        font-size: 18px;
+    }
+
+    .tp-internal-links {
+        margin: 25px 0;
+        padding: 18px 15px;
+        border-radius: 8px;
+    }
+
+    .tp-internal-links h3 {
+        font-size: 16px;
+    }
+
+    .tp-internal-links ul li {
+        padding: 6px 0 6px 24px;
+    }
+
+    .tp-internal-links ul li a {
+        font-size: 14px;
+    }
+
+    .tp-faq {
+        margin: 25px 0 40px;
+    }
+}
