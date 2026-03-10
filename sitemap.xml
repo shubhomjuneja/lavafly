@@ -2,78 +2,315 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- English (default) -->
+  <!-- =============================== -->
+  <!-- Homepage (EN / ES / FR / IT)     -->
+  <!-- =============================== -->
   <url>
     <loc>https://lavaflylanzarote.com/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/" />
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Spanish -->
   <url>
     <loc>https://lavaflylanzarote.com/es/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/" />
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- French -->
   <url>
     <loc>https://lavaflylanzarote.com/fr/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/" />
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Italian -->
   <url>
     <loc>https://lavaflylanzarote.com/it/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/" />
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Flight Areas -->
+  <!-- =========================================== -->
+  <!-- Tandem Paragliding (EN / ES / FR / IT)      -->
+  <!-- =========================================== -->
   <url>
-    <loc>https://lavaflylanzarote.com/flight-areas.html</loc>
-    <lastmod>2026-02-25</lastmod>
+    <loc>https://lavaflylanzarote.com/tandem-paragliding-lanzarote.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/tandem-paragliding-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/tandem-paragliding-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/tandem-paragliding-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/tandem-paragliding-lanzarote.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/es/tandem-paragliding-lanzarote.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/tandem-paragliding-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/tandem-paragliding-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/tandem-paragliding-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/tandem-paragliding-lanzarote.html" />
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Contract (English) -->
+  <url>
+    <loc>https://lavaflylanzarote.com/fr/tandem-paragliding-lanzarote.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/tandem-paragliding-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/tandem-paragliding-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/tandem-paragliding-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/tandem-paragliding-lanzarote.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/it/tandem-paragliding-lanzarote.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/tandem-paragliding-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/tandem-paragliding-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/tandem-paragliding-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/tandem-paragliding-lanzarote.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- =========================================== -->
+  <!-- Paragliding Famara (EN / ES / FR / IT)      -->
+  <!-- =========================================== -->
+  <url>
+    <loc>https://lavaflylanzarote.com/paragliding-famara.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/paragliding-famara.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/paragliding-famara.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/paragliding-famara.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/paragliding-famara.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/es/paragliding-famara.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/paragliding-famara.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/paragliding-famara.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/paragliding-famara.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/paragliding-famara.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/fr/paragliding-famara.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/paragliding-famara.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/paragliding-famara.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/paragliding-famara.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/paragliding-famara.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/it/paragliding-famara.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/paragliding-famara.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/paragliding-famara.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/paragliding-famara.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/paragliding-famara.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- =========================================== -->
+  <!-- Is Paragliding Safe? (EN / ES / FR / IT)    -->
+  <!-- =========================================== -->
+  <url>
+    <loc>https://lavaflylanzarote.com/is-paragliding-safe.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/is-paragliding-safe.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/is-paragliding-safe.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/is-paragliding-safe.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/is-paragliding-safe.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/es/is-paragliding-safe.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/is-paragliding-safe.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/is-paragliding-safe.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/is-paragliding-safe.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/is-paragliding-safe.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/fr/is-paragliding-safe.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/is-paragliding-safe.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/is-paragliding-safe.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/is-paragliding-safe.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/is-paragliding-safe.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/it/is-paragliding-safe.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/is-paragliding-safe.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/is-paragliding-safe.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/is-paragliding-safe.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/is-paragliding-safe.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- =========================================== -->
+  <!-- When to Fly (EN / ES / FR / IT)             -->
+  <!-- =========================================== -->
+  <url>
+    <loc>https://lavaflylanzarote.com/when-to-fly-lanzarote.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/when-to-fly-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/when-to-fly-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/when-to-fly-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/when-to-fly-lanzarote.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/es/when-to-fly-lanzarote.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/when-to-fly-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/when-to-fly-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/when-to-fly-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/when-to-fly-lanzarote.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/fr/when-to-fly-lanzarote.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/when-to-fly-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/when-to-fly-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/when-to-fly-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/when-to-fly-lanzarote.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/it/when-to-fly-lanzarote.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/when-to-fly-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/when-to-fly-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/when-to-fly-lanzarote.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/when-to-fly-lanzarote.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- =========================================== -->
+  <!-- Gift Voucher (EN / ES / FR / IT)            -->
+  <!-- =========================================== -->
+  <url>
+    <loc>https://lavaflylanzarote.com/gift-voucher-paragliding.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/gift-voucher-paragliding.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/gift-voucher-paragliding.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/gift-voucher-paragliding.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/gift-voucher-paragliding.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/es/gift-voucher-paragliding.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/gift-voucher-paragliding.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/gift-voucher-paragliding.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/gift-voucher-paragliding.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/gift-voucher-paragliding.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/fr/gift-voucher-paragliding.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/gift-voucher-paragliding.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/gift-voucher-paragliding.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/gift-voucher-paragliding.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/gift-voucher-paragliding.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lavaflylanzarote.com/it/gift-voucher-paragliding.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/gift-voucher-paragliding.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://lavaflylanzarote.com/es/gift-voucher-paragliding.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/gift-voucher-paragliding.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://lavaflylanzarote.com/it/gift-voucher-paragliding.html" />
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- =========================================== -->
+  <!-- Flight Areas (EN only)                      -->
+  <!-- =========================================== -->
+  <url>
+    <loc>https://lavaflylanzarote.com/flight-areas.html</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- =========================================== -->
+  <!-- Contract (EN / FR)                          -->
+  <!-- =========================================== -->
   <url>
     <loc>https://lavaflylanzarote.com/contract.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/contract.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/contract.html" />
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
-  <!-- Contract (French) -->
   <url>
     <loc>https://lavaflylanzarote.com/fr/contract.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://lavaflylanzarote.com/contract.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://lavaflylanzarote.com/fr/contract.html" />
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
