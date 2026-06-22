@@ -51,35 +51,45 @@
       </div>
       <nav id="nav-mobile">
         <ul>
-          <li><a href="#about">
-              QUI SOMMES NOUS</a></li>
+          <li><a href="#about">QUI SOMMES NOUS</a></li>
           <li><a href="#tandem-flights">VOLS</a></li>
-          <li><a href="#gift-card">CARTE-CADEAU </a></li>
-          <li><a href="#faq">QUESTIONS FRÉQUENTES
-            </a></li>
+          <li class="mobile-menu-header">INFOS UTILES</li>
+          <li class="mobile-submenu-item"><a href="#flight-areas">Zones de vol</a></li>
+          <li class="mobile-submenu-item"><a href="/fr/when-to-fly-lanzarote">Quand voler ?</a></li>
+          <li class="mobile-submenu-item"><a href="/fr/is-paragliding-safe">Sécurité</a></li>
+          <li class="mobile-submenu-item"><a href="/fr/paragliding-famara">Ce qu'il faut apporter</a></li>
+          <li class="mobile-submenu-item"><a href="/fr/tandem-paragliding-lanzarote">Réservations</a></li>
+          <li class="mobile-submenu-item"><a href="#gift-card">Carte-cadeau</a></li>
+          <li class="mobile-submenu-item"><a href="/fr/contract">Contrat</a></li>
+          <li><a href="#gift-card">CARTE-CADEAU</a></li>
+          <li><a href="#faq">QUESTIONS FRÉQUENTES</a></li>
           <li><a href="#contact">CONTACT</a></li>
-          <li><a href="/fr/contract">CONTRAT</a></li>
-
           <li><a href="/"><img src="/img/uk-flag.webp" width="24px" alt="uk-flag"></a></li>
-          <li><a href="/es"><img src="/img/spain-flag.webp" width="24px" alt="spain-flag"
-                id="spain-flag-fr-version"></a>
-          </li>
-          <li><a href="/it"><img src="/img/italy-flag.webp" width="24px" alt="italy-flag"
-                id="spain-flag-fr-version"></a>
-          </li>
-
+          <li><a href="/es"><img src="/img/spain-flag.webp" width="24px" alt="spain-flag"></a></li>
+          <li><a href="/it"><img src="/img/italy-flag.webp" width="24px" alt="italy-flag"></a></li>
         </ul>
       </nav>
       <nav id="nav-desktop">
         <ul>
           <li><a href="#about">QUI SOMMES NOUS</a></li>
           <li><a href="#tandem-flights">VOLS</a></li>
+          <li class="dropdown">
+            <a href="#">INFOS UTILES <span class="caret">&#9660;</span></a>
+            <ul class="dropdown-content">
+              <li><a href="#flight-areas">Zones de vol</a></li>
+              <li><a href="/fr/when-to-fly-lanzarote">Quand voler ?</a></li>
+              <li><a href="/fr/is-paragliding-safe">Sécurité</a></li>
+              <li><a href="/fr/paragliding-famara">Ce qu'il faut apporter</a></li>
+              <li><a href="/fr/tandem-paragliding-lanzarote">Réservations</a></li>
+              <li><a href="#gift-card">Carte-cadeau</a></li>
+              <li><a href="/fr/contract">Contrat</a></li>
+            </ul>
+          </li>
           <li><a href="#gift-card">CARTE-CADEAU</a></li>
           <li><a href="#faq">QUESTIONS FRÉQUENTES</a></li>
           <li><a href="#contact">CONTACT</a></li>
-          <li><a href="/fr/contract">CONTRAT</a></li>
           <div class="flag-desktop-container">
-            <a href="/"><img src="/img/uk-flag.webp" width="24px" alt="french-flag"></a>
+            <a href="/"><img src="/img/uk-flag.webp" width="24px" alt="uk-flag"></a>
             <a href="/es"><img src="/img/spain-flag.webp" width="24px" alt="spain-flag"></a>
             <a href="/it"><img src="/img/italy-flag.webp" width="24px" alt="italy-flag"></a>
           </div>
@@ -150,14 +160,14 @@
         </p>
 
       </div>
-      <div class="darlo-card">
+      <!-- <div class="darlo-card">
         <img loading="lazy" src="../img/gustavo.webp" alt="Gustavo - team assistant and musician">
         <h3>Gustavo</h3>
         <p>Gustavo est notre gaucho argentin de Patagonie. Avec sa bonne humeur constante, ses compétences multilingues
           et son talent exceptionnel à la fois comme assistant et comme musicien, il apporte un esprit unique à notre
           équipe.</p>
-      </div>
-      <div>
+      </div>-->
+      <div> 
         <img loading="lazy" src="../img/paragliding-lanzarote-sandro.webp"
           alt="Sandro - surf instructor and team member">
         <h3>Sandro</h3>
@@ -494,6 +504,24 @@
     </h2>
     <div class="divider"></div>
 
+    <details>
+      <summary class="accordian">LE PARAPENTE BIPLACE EST-IL SÛR À LANZAROTE ?</summary>
+      <div class="faq__content panel">
+        <p>Oui, le parapente biplace est très sûr. Vous volez avec des moniteurs de vol certifiés par l'État qui ont des décennies d'expérience, et nous ne décollons que lorsque les conditions météorologiques sont 100% sûres.</p>
+      </div>
+    </details>
+    <details>
+      <summary class="accordian">AI-JE BESOIN D'UNE EXPÉRIENCE PRÉALABLE ?</summary>
+      <div class="faq__content panel">
+        <p>Aucune expérience préalable n'est requise ! Le pilote gère tous les aspects techniques du décollage, du vol et de l'atterrissage. Il vous suffit de faire quelques pas avec le pilote lors du décollage.</p>
+      </div>
+    </details>
+    <details>
+      <summary class="accordian">LES VOLS SONT-ILS ANNULÉS EN RAISON DE LA MÉTÉO ?</summary>
+      <div class="faq__content panel">
+        <p>Oui. Le parapente dépend entièrement du vent et des conditions météorologiques. Si les conditions ne sont pas sûres ou adaptées au vol, nous reporterons le vol ou proposerons un remboursement complet si aucun report n'est possible.</p>
+      </div>
+    </details>
     <details>
       <summary class="accordian">COMMENT OBTENIR UN BON CADEAU?</summary>
       <div class="faq__content panel">
